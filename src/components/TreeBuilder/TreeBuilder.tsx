@@ -19,7 +19,7 @@ const TreeBuilder = () => {
 
   const nodeSize = {
     x: 400,
-    y: 400
+    y: 150
   };
   const renderForeignObjectNode = ({
     nodeDatum,
@@ -29,6 +29,7 @@ const TreeBuilder = () => {
     const isRootNode = nodeDatum.__rd3t.depth === 0;
     const isBranchNode = !!nodeDatum.children?.length && !isRootNode;
     const isLeafNode = !nodeDatum.children?.length && !isRootNode;
+    console.log(nodeDatum)
 
 
     return (
@@ -70,7 +71,7 @@ const TreeBuilder = () => {
   return (
     <div id="treeWrapper" ref={containerRef} style={{ width: "100%", height: "100vh" }}>
       <Tree
-        data={mockedData.children[0]}
+        data={mockedData}
         translate={translate}
         orientation="horizontal"
         pathFunc="step"
