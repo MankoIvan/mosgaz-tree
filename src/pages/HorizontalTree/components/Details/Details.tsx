@@ -64,7 +64,9 @@ const Details = ({ nodeDatum }: { nodeDatum: TreeNodeDatum }) => {
           })}
         </Box>
       }>
-      <IconButton color='primary'>
+      <IconButton color='primary' sx={{
+        position: 'static'
+      }}>
         <InfoIcon />
       </IconButton>
     </LightTooltip>

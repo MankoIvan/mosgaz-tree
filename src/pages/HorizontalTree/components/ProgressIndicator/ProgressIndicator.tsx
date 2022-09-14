@@ -57,7 +57,9 @@ const ProgressIndicator = ({ nodeDatum, progress }: TProgressIndicator) => {
         </Stepper>
       }
     >
-      <IconButton color='primary'>
+      <IconButton color='primary' sx={{
+        position: 'static'
+      }}>
         {Math.round(progress)}%
       </IconButton>
     </LightTooltip>
