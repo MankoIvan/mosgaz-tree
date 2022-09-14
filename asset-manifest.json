@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mosgaz-tree/static/css/main.20c0d03f.css",
+    "main.js": "/mosgaz-tree/static/js/main.bbd3e072.js",
+    "index.html": "/mosgaz-tree/index.html",
+    "main.20c0d03f.css.map": "/mosgaz-tree/static/css/main.20c0d03f.css.map",
+    "main.bbd3e072.js.map": "/mosgaz-tree/static/js/main.bbd3e072.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20c0d03f.css",
+    "static/js/main.bbd3e072.js"
+  ]
+}
