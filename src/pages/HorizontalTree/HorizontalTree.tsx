@@ -2,33 +2,29 @@ import React from 'react'
 import Tree from 'react-d3-tree';
 import mockedData from '../../data/mockedData.json'
 import { useCenteredTree } from '../../hooks/useCenteredTree';
-import TreeNode from '../TreeNode/TreeNode';
+import { ICON_SIZE, NODE_SIZE, RELATIVE_NODE_SIZE } from './constants';
+import TreeNode from './components/TreeNode/TreeNode';
 
+const HorizontalTree = () => {
 
-const TreeBuilder = () => {
-  const [translate, containerRef] = useCenteredTree();
-
-  const nodeSize = {
-    x: 400,
-    y: 200
-  };
+  const [translate, containerRef] = useCenteredTree(NODE_SIZE);
 
   return (
-    <div id="treeWrapper" ref={containerRef} style={{ width: "100%", height: "100vh" }}>
+    <div id="treeWrapper" ref={containerRef} style={{ width: "100%", height: "100%" }}>
       <Tree
         data={mockedData}
         translate={translate}
         orientation="horizontal"
         pathFunc="step"
-        nodeSize={nodeSize}
+        nodeSize={NODE_SIZE}
         renderCustomNodeElement={(rd3tProps) =>
           <TreeNode
             {...rd3tProps}
-            foreignObjectProps={{
-              width: nodeSize.x * 0.75,
-              height: nodeSize.y,
-              y: 32,
-              x: -(nodeSize.x * 0.75) / 2
+            infoBlockProps={{
+              width: NODE_SIZE.x * RELATIVE_NODE_SIZE,
+              height: NODE_SIZE.y,
+              y: ICON_SIZE,
+              x: -(NODE_SIZE.x * RELATIVE_NODE_SIZE) / 2
             }}
           />
         }
@@ -40,4 +36,4 @@ const TreeBuilder = () => {
   )
 }
 
-export default TreeBuilder
+export default HorizontalTree

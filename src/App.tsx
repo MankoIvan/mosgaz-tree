@@ -1,12 +1,15 @@
 import React from 'react';
-import TreeBuilder from './components/TreeBuilder/TreeBuilder';
+import { Route, Routes } from 'react-router-dom';
+import CircularTree from './pages/CircularTree/CircularTree';
+import HorizontalTree from './pages/HorizontalTree/HorizontalTree';
 
 function App() {
 
   return (
-    <div>
-      <TreeBuilder />
-    </div>
+    <Routes>
+      <Route path='/' element={<HorizontalTree />} />
+      <Route path='/circular' element={<CircularTree />} />
+    </Routes>
   );
 }
 
