@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/mosgaz-tree/static/css/main.20c0d03f.css",
-    "main.js": "/mosgaz-tree/static/js/main.2cdc55ba.js",
-    "index.html": "/mosgaz-tree/index.html",
-    "main.20c0d03f.css.map": "/mosgaz-tree/static/css/main.20c0d03f.css.map",
-    "main.2cdc55ba.js.map": "/mosgaz-tree/static/js/main.2cdc55ba.js.map"
+    "main.css": "/MankoIvan/mosgaz-tree/static/css/main.20c0d03f.css",
+    "main.js": "/MankoIvan/mosgaz-tree/static/js/main.a44f9fbc.js",
+    "index.html": "/MankoIvan/mosgaz-tree/index.html",
+    "main.20c0d03f.css.map": "/MankoIvan/mosgaz-tree/static/css/main.20c0d03f.css.map",
+    "main.a44f9fbc.js.map": "/MankoIvan/mosgaz-tree/static/js/main.a44f9fbc.js.map"
   },
   "entrypoints": [
     "static/css/main.20c0d03f.css",
-    "static/js/main.2cdc55ba.js"
+    "static/js/main.a44f9fbc.js"
   ]
 }
