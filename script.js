@@ -2,7 +2,6 @@ import mockedData from './src/data/mockedDataBad.json' assert {type: "json"};
 
 import fs from 'fs';
 
-
 const moveOperations = (obj) => {
   if (obj.children.length) {
     obj.children.forEach(child => moveOperations(child));

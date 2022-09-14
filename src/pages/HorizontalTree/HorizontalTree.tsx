@@ -1,3 +1,5 @@
+//@ts-nocheck
+
 import React from 'react'
 import Tree from 'react-d3-tree';
 import mockedData from '../../data/mockedData.json'

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Box, LinearProgress, Typography } from '@mui/material'
 import { grey, yellow, green } from '@mui/material/colors'
 import React from 'react'
