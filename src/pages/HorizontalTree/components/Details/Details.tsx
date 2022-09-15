@@ -1,5 +1,5 @@
 import { Box, Divider, IconButton, styled, Tooltip, tooltipClasses, TooltipProps } from '@mui/material'
-import React from 'react'
+import React, { Fragment } from 'react'
 import { TreeNodeDatum } from 'react-d3-tree/lib/types/common'
 import InfoIcon from '@mui/icons-material/Info';
 
@@ -46,7 +46,7 @@ const Details = ({ nodeDatum }: { nodeDatum: TreeNodeDatum }) => {
         }}>
           {detailsData.map((item, index) => {
             return (
-              <>
+              <Fragment key={index}>
                 <Box sx={{
                   display: 'flex',
                   gap: '10px'
@@ -59,7 +59,7 @@ const Details = ({ nodeDatum }: { nodeDatum: TreeNodeDatum }) => {
                   }}>{item.value}</Box>
                 </Box>
                 {(index !== (detailsData.length - 1)) && <Divider />}
-              </>
+              </Fragment>
             )
           })}
         </Box>

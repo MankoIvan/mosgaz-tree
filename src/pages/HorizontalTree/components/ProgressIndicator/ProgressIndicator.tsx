@@ -36,6 +36,7 @@ const ProgressIndicator = ({ nodeDatum, progress }: TProgressIndicator) => {
           }, index: number) => {
             return (
               <Tooltip
+                key={index}
                 placement='right'
                 arrow
                 followCursor
