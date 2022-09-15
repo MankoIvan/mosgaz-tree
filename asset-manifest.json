@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/mosgaz-tree/static/css/main.20c0d03f.css",
-    "main.js": "/mosgaz-tree/static/js/main.a44f9fbc.js",
-    "index.html": "/mosgaz-tree/index.html",
-    "main.20c0d03f.css.map": "/mosgaz-tree/static/css/main.20c0d03f.css.map",
-    "main.a44f9fbc.js.map": "/mosgaz-tree/static/js/main.a44f9fbc.js.map"
+    "main.css": "./static/css/main.20c0d03f.css",
+    "main.js": "./static/js/main.6d02b26f.js",
+    "index.html": "./index.html",
+    "main.20c0d03f.css.map": "./static/css/main.20c0d03f.css.map",
+    "main.6d02b26f.js.map": "./static/js/main.6d02b26f.js.map"
   },
   "entrypoints": [
     "static/css/main.20c0d03f.css",
-    "static/js/main.a44f9fbc.js"
+    "static/js/main.6d02b26f.js"
   ]
 }

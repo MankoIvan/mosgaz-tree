@@ -1,0 +1,4559 @@
+﻿{
+  "name": "agh МПГ — РЕД-6-50-С3 - 1680(1,2-0,05) — 2-ОЭ-0-Т-ПГ.0 ДПМА.067327.095 ЭМ",
+  "attributes": {
+    "product_name": "agh МПГ — РЕД-6-50-С3 - 1680(1,2-0,05) — 2-ОЭ-0-Т-ПГ.0",
+    "product_number": "ДПМА.067327.095 ЭМ",
+    "status": 0,
+    "quantity": 1,
+    "product_revision": "Рев-02",
+    "task_revision": "",
+    "revision_change": false,
+    "operations": [
+      {
+        "operation": "Комплектование",
+        "area": "Участок комплектации",
+        "area_code": "Уч07",
+        "oper_code": "0418",
+        "done": false
+      },
+      {
+        "operation": "Слесарно-сборочная",
+        "area": "Сборочный участок",
+        "area_code": "Уч06",
+        "oper_code": "8864",
+        "done": false
+      },
+      {
+        "operation": "Испытания механические на воздействие давления пневматиского повышенного",
+        "area": "Сборочный участок",
+        "area_code": "Уч06",
+        "oper_code": "0673",
+        "done": false
+      },
+      {
+        "operation": "Контроль внешнего вида изделий, наличия клейм",
+        "area": "Сборочный участок",
+        "area_code": "Уч06",
+        "oper_code": "0387",
+        "done": false
+      }
+    ]
+  },
+  "children": [
+    {
+      "name": "Установка газорегуляторная (ГРУ) ДПМА.067327.095-001 ЭМ",
+      "attributes": {
+        "product_name": "Установка газорегуляторная (ГРУ)",
+        "product_number": "ДПМА.067327.095-001 ЭМ",
+        "status": 0,
+        "quantity": 1,
+        "product_revision": "Рев-02",
+        "task_revision": "",
+        "revision_change": false,
+        "operations": [
+          {
+            "operation": "Комплектование",
+            "area": "Участок комплектации",
+            "area_code": "Уч07",
+            "oper_code": "0418",
+            "done": false
+          },
+          {
+            "operation": "Слесарно-сборочная",
+            "area": "Сборочный участок",
+            "area_code": "Уч06",
+            "oper_code": "8864",
+            "done": false
+          },
+          {
+            "operation": "Контроль внешнего вида изделий, наличия клейм",
+            "area": "Сборочный участок",
+            "area_code": "Уч06",
+            "oper_code": "0387",
+            "done": false
+          },
+          {
+            "operation": "Монтаж",
+            "area": "Сборочный участок",
+            "area_code": "Уч06",
+            "oper_code": "8858",
+            "done": false
+          },
+          {
+            "operation": "Испытания на гермитичность пневматические",
+            "area": "Сборочный участок",
+            "area_code": "Уч06",
+            "oper_code": "0676",
+            "done": false
+          }
+        ]
+      },
+      "children": [
+        {
+          "name": "Установка газорегуляторная (ГРУ) с монтажной вставкой",
+          "attributes": {
+            "product_name": "",
+            "product_number": "",
+            "status": 0,
+            "quantity": 0,
+            "product_revision": "",
+            "task_revision": "",
+            "revision_change": false,
+            "operations": [
+              {
+                "operation": "Комплектование",
+                "area": "Участок комплектации",
+                "area_code": "Уч07",
+                "oper_code": "0418",
+                "done": false
+              },
+              {
+                "operation": "Слесарно-сборочная",
+                "area": "Сборочный участок",
+                "area_code": "Уч06",
+                "oper_code": "8864",
+                "done": false
+              },
+              {
+                "operation": "Контроль линейных размеров",
+                "area": "Сборочный участок",
+                "area_code": "Уч06",
+                "oper_code": "0220",
+                "done": false
+              },
+              {
+                "operation": "Испытания механические на воздействие давления пневматиского повышенного",
+                "area": "Сборочный участок",
+                "area_code": "Уч06",
+                "oper_code": "0673",
+                "done": false
+              }
+            ]
+          },
+          "children": [
+            {
+              "name": "Комплект импульсных трубок с фитингами ДПМА.302315.040 ЭМ",
+              "attributes": {
+                "product_name": "Комплект импульсных трубок с фитингами",
+                "product_number": "ДПМА.302315.040 ЭМ",
+                "status": 1,
+                "quantity": 1,
+                "product_revision": "Рев-01",
+                "task_revision": "Рев-01",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": true
+                  },
+                  {
+                    "operation": "Слесарно-сборочная",
+                    "area": "Сборочный участок",
+                    "area_code": "Уч06",
+                    "oper_code": "8864",
+                    "done": false
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "name": "Комплект импульсных трубок с фитингами ДПМА.302315.040-001 ЭМ",
+              "attributes": {
+                "product_name": "Комплект импульсных трубок с фитингами",
+                "product_number": "ДПМА.302315.040-001 ЭМ",
+                "status": 1,
+                "quantity": 1,
+                "product_revision": "Рев-01",
+                "task_revision": "Рев-01",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": true
+                  },
+                  {
+                    "operation": "Слесарно-сборочная",
+                    "area": "Сборочный участок",
+                    "area_code": "Уч06",
+                    "oper_code": "8864",
+                    "done": false
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "name": "Комплект обвязки фильтра ДПМА.406926.060-001 ЭМ",
+              "attributes": {
+                "product_name": "Комплект обвязки фильтра",
+                "product_number": "ДПМА.406926.060-001 ЭМ",
+                "status": 2,
+                "quantity": 1,
+                "product_revision": "Рев-01",
+                "task_revision": "Рев-01",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": true
+                  },
+                  {
+                    "operation": "Слесарно-сборочная",
+                    "area": "Сборочный участок",
+                    "area_code": "Уч06",
+                    "oper_code": "8864",
+                    "done": true
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "name": "Комплект обвязки фильтра ДПМА.406926.060 ЭМ",
+              "attributes": {
+                "product_name": "Комплект обвязки фильтра",
+                "product_number": "ДПМА.406926.060 ЭМ",
+                "status": 2,
+                "quantity": 1,
+                "product_revision": "Рев-01",
+                "task_revision": "Рев-01",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": true
+                  },
+                  {
+                    "operation": "Слесарно-сборочная",
+                    "area": "Сборочный участок",
+                    "area_code": "Уч06",
+                    "oper_code": "8864",
+                    "done": true
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "name": "Комплект устройства многоточечного отбора импульсов ДПМА.302612.001 ЭМ",
+              "attributes": {
+                "product_name": "Комплект устройства многоточечного отбора импульсов",
+                "product_number": "ДПМА.302612.001 ЭМ",
+                "status": 2,
+                "quantity": 2,
+                "product_revision": "Рев-01",
+                "task_revision": "Рев-01",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": true
+                  },
+                  {
+                    "operation": "Слесарно-сборочная",
+                    "area": "Сборочный участок",
+                    "area_code": "Уч06",
+                    "oper_code": "8864",
+                    "done": true
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "name": "Комплект измерения избыточного давления (0...2,0 МПа) ДПМА.406321.003-007 ЭМ",
+              "attributes": {
+                "product_name": "Комплект измерения избыточного давления (0...2,0 МПа)",
+                "product_number": "ДПМА.406321.003-007 ЭМ",
+                "status": 2,
+                "quantity": 1,
+                "product_revision": "Рев-03",
+                "task_revision": "Рев-03",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": true
+                  },
+                  {
+                    "operation": "Слесарно-сборочная",
+                    "area": "Сборочный участок",
+                    "area_code": "Уч06",
+                    "oper_code": "8864",
+                    "done": true
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "name": "Комплект измерения давления (0-2,0 МПа) ДПМА.406321.002-002 ЭМ",
+              "attributes": {
+                "product_name": "Комплект измерения давления (0-2,0 МПа)",
+                "product_number": "ДПМА.406321.002-002 ЭМ",
+                "status": 2,
+                "quantity": 2,
+                "product_revision": "Рев-02",
+                "task_revision": "Рев-02",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": true
+                  },
+                  {
+                    "operation": "Слесарно-сборочная",
+                    "area": "Сборочный участок",
+                    "area_code": "Уч06",
+                    "oper_code": "8864",
+                    "done": true
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "name": "Комплект измерения давления (0-0,1 МПа) ДПМА.406321.002-010 ЭМ",
+              "attributes": {
+                "product_name": "Комплект измерения давления (0-0,1 МПа)",
+                "product_number": "ДПМА.406321.002-010 ЭМ",
+                "status": 2,
+                "quantity": 3,
+                "product_revision": "Рев-02",
+                "task_revision": "Рев-02",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": true
+                  },
+                  {
+                    "operation": "Слесарно-сборочная",
+                    "area": "Сборочный участок",
+                    "area_code": "Уч06",
+                    "oper_code": "8864",
+                    "done": true
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "name": "Комплект измерения избыточного давления (0...0,1 МПа) ДПМА.406321.003-012 ЭМ",
+              "attributes": {
+                "product_name": "Комплект измерения избыточного давления (0...0,1 МПа)",
+                "product_number": "ДПМА.406321.003-012 ЭМ",
+                "status": 2,
+                "quantity": 1,
+                "product_revision": "Рев-03",
+                "task_revision": "Рев-03",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": true
+                  },
+                  {
+                    "operation": "Слесарно-сборочная",
+                    "area": "Сборочный участок",
+                    "area_code": "Уч06",
+                    "oper_code": "8864",
+                    "done": true
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "name": "Коллектор DN50-(50+20) ДПМА.302384.229 ЭМ",
+              "attributes": {
+                "product_name": "Коллектор DN50-(50+20)",
+                "product_number": "ДПМА.302384.229 ЭМ",
+                "status": 0,
+                "quantity": 1,
+                "product_revision": "Рев-01",
+                "task_revision": "",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": false
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": false
+                  },
+                  {
+                    "operation": "Ленточно (проволочно) - отрезная",
+                    "area": "Заготовительный участок",
+                    "area_code": "Уч02",
+                    "oper_code": "4282",
+                    "done": false
+                  },
+                  {
+                    "operation": "Контроль линейных размеров",
+                    "area": "Заготовительный участок",
+                    "area_code": "Уч02",
+                    "oper_code": "0220",
+                    "done": false
+                  },
+                  {
+                    "operation": "Дуговая сварка в инертных газах не плавящимся электродом с присадочным металлом",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "9041",
+                    "done": false
+                  },
+                  {
+                    "operation": "Контроль линейных размеров",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0220",
+                    "done": false
+                  },
+                  {
+                    "operation": "Зачистка",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0109",
+                    "done": false
+                  },
+                  {
+                    "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "9039",
+                    "done": false
+                  },
+                  {
+                    "operation": "Комплексный контроль геометрических параметров",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0260",
+                    "done": false
+                  },
+                  {
+                    "operation": "Контроль неразрушающий радиационный",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0381",
+                    "done": false
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": false
+                  },
+                  {
+                    "operation": "Грунтование распылением  электростатическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7313",
+                    "done": false
+                  },
+                  {
+                    "operation": "Контроль внешнего вида изделий, наличия клейм",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0387",
+                    "done": false
+                  },
+                  {
+                    "operation": "Окрашивание распылением  электростатическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7363",
+                    "done": false
+                  },
+                  {
+                    "operation": "Контроль внешнего вида изделий, наличия клейм",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0387",
+                    "done": false
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "name": "Бобышка БП-БТ G1_2 L30 ДПМА.713161.006 ЭМ",
+                  "attributes": {
+                    "product_name": "Бобышка БП-БТ G1_2 L30",
+                    "product_number": "ДПМА.713161.006 ЭМ",
+                    "status": 2,
+                    "quantity": 1,
+                    "product_revision": "Рев-02",
+                    "task_revision": "Рев-02",
+                    "revision_change": false,
+                    "operations": [
+                      {
+                        "operation": "Комплектование",
+                        "area": "Участок комплектации",
+                        "area_code": "Уч07",
+                        "oper_code": "0418",
+                        "done": true
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "name": "ФГ-1-DN50-50-А-П с указателем перепада давления, с дренажным краном ДПМА.067119.008-001 ЭМ",
+                  "attributes": {
+                    "product_name": "ФГ-1-DN50-50-А-П с указателем перепада давления, с дренажным краном",
+                    "product_number": "ДПМА.067119.008-001 ЭМ",
+                    "status": 0,
+                    "quantity": 1,
+                    "product_revision": "Рев-04",
+                    "task_revision": "",
+                    "revision_change": false,
+                    "operations": [
+                      {
+                        "operation": "Комплектование",
+                        "area": "Участок комплектации",
+                        "area_code": "Уч07",
+                        "oper_code": "0418",
+                        "done": false
+                      },
+                      {
+                        "operation": "Слесарно-сборочная",
+                        "area": "Сборочный участок",
+                        "area_code": "Уч06",
+                        "oper_code": "8864",
+                        "done": false
+                      }
+                    ]
+                  },
+                  "children": [
+                    {
+                      "name": "ФГ-1-DN50-50-A-П ДПМА.067119.008 ЭМ",
+                      "attributes": {
+                        "product_name": "ФГ-1-DN50-50-A-П",
+                        "product_number": "ДПМА.067119.008 ЭМ",
+                        "status": 2,
+                        "quantity": 1,
+                        "product_revision": "Рев-03",
+                        "task_revision": "Рев-03",
+                        "revision_change": false,
+                        "operations": [
+                          {
+                            "operation": "Комплектование",
+                            "area": "Участок комплектации",
+                            "area_code": "Уч07",
+                            "oper_code": "0418",
+                            "done": true
+                          },
+                          {
+                            "operation": "Очистка дробеструйная",
+                            "area": "Участок подготовки поверхности",
+                            "area_code": "Уч01",
+                            "oper_code": "0136",
+                            "done": true
+                          },
+                          {
+                            "operation": "Ленточно (проволочно) - отрезная",
+                            "area": "Заготовительный участок",
+                            "area_code": "Уч02",
+                            "oper_code": "4282",
+                            "done": false
+                          },
+                          {
+                            "operation": "Контроль линейных размеров",
+                            "area": "Заготовительный участок",
+                            "area_code": "Уч02",
+                            "oper_code": "0220",
+                            "done": false
+                          },
+                          {
+                            "operation": "Дуговая сварка в инертных газах не плавящимся электродом с присадочным металлом",
+                            "area": "Сварочный участок",
+                            "area_code": "Уч05",
+                            "oper_code": "9041",
+                            "done": true
+                          },
+                          {
+                            "operation": "Контроль линейных размеров",
+                            "area": "Сварочный участок",
+                            "area_code": "Уч05",
+                            "oper_code": "0220",
+                            "done": false
+                          },
+                          {
+                            "operation": "Зачистка",
+                            "area": "Сварочный участок",
+                            "area_code": "Уч05",
+                            "oper_code": "0109",
+                            "done": false
+                          },
+                          {
+                            "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                            "area": "Сварочный участок",
+                            "area_code": "Уч05",
+                            "oper_code": "9039",
+                            "done": true
+                          },
+                          {
+                            "operation": "Комплексный контроль геометрических параметров",
+                            "area": "Сварочный участок",
+                            "area_code": "Уч05",
+                            "oper_code": "0260",
+                            "done": false
+                          },
+                          {
+                            "operation": "Контроль неразрушающий радиационный",
+                            "area": "Сварочный участок",
+                            "area_code": "Уч05",
+                            "oper_code": "0381",
+                            "done": false
+                          },
+                          {
+                            "operation": "Очистка дробеструйная",
+                            "area": "Участок подготовки поверхности",
+                            "area_code": "Уч01",
+                            "oper_code": "0136",
+                            "done": true
+                          },
+                          {
+                            "operation": "Грунтование распылением  электростатическим",
+                            "area": "Участок подготовки поверхности",
+                            "area_code": "Уч01",
+                            "oper_code": "7313",
+                            "done": true
+                          },
+                          {
+                            "operation": "Контроль внешнего вида изделий, наличия клейм",
+                            "area": "Участок подготовки поверхности",
+                            "area_code": "Уч01",
+                            "oper_code": "0387",
+                            "done": false
+                          },
+                          {
+                            "operation": "Окрашивание распылением  электростатическим",
+                            "area": "Участок подготовки поверхности",
+                            "area_code": "Уч01",
+                            "oper_code": "7363",
+                            "done": true
+                          },
+                          {
+                            "operation": "Контроль внешнего вида изделий, наличия клейм",
+                            "area": "Участок подготовки поверхности",
+                            "area_code": "Уч01",
+                            "oper_code": "0387",
+                            "done": false
+                          }
+                        ]
+                      },
+                      "children": [
+                        {
+                          "name": "Шпилька М12х340 ДПМА.715111.001 ЭМ",
+                          "attributes": {
+                            "product_name": "Шпилька М12х340",
+                            "product_number": "ДПМА.715111.001 ЭМ",
+                            "status": 2,
+                            "quantity": 1,
+                            "product_revision": "Рев-01",
+                            "task_revision": "Рев-01",
+                            "revision_change": false,
+                            "operations": [
+                              {
+                                "operation": "Токарная",
+                                "area": "Механический участок",
+                                "area_code": "Уч04",
+                                "oper_code": "4110",
+                                "done": true
+                              },
+                              {
+                                "operation": "Комплектование",
+                                "area": "Участок комплектации",
+                                "area_code": "Уч07",
+                                "oper_code": "0418",
+                                "done": true
+                              }
+                            ]
+                          },
+                          "children": []
+                        },
+                        {
+                          "name": "Бобышка G-1.4 ДПМА.713161.001 ЭМ",
+                          "attributes": {
+                            "product_name": "Бобышка G-1.4",
+                            "product_number": "ДПМА.713161.001 ЭМ",
+                            "status": 2,
+                            "quantity": 1,
+                            "product_revision": "Рев-03",
+                            "task_revision": "Рев-03",
+                            "revision_change": false,
+                            "operations": [
+                              {
+                                "operation": "Комплектование",
+                                "area": "Участок комплектации",
+                                "area_code": "Уч07",
+                                "oper_code": "0418",
+                                "done": true
+                              }
+                            ]
+                          },
+                          "children": []
+                        },
+                        {
+                          "name": "Шайба ответная G1 ДПМА.712475.006 ЭМ",
+                          "attributes": {
+                            "product_name": "Шайба ответная G1",
+                            "product_number": "ДПМА.712475.006 ЭМ",
+                            "status": 2,
+                            "quantity": 1,
+                            "product_revision": "Рев-02",
+                            "task_revision": "Рев-02",
+                            "revision_change": false,
+                            "operations": [
+                              {
+                                "operation": "Токарная",
+                                "area": "Механический участок",
+                                "area_code": "Уч04",
+                                "oper_code": "4110",
+                                "done": true
+                              },
+                              {
+                                "operation": "Комплектование",
+                                "area": "Участок комплектации",
+                                "area_code": "Уч07",
+                                "oper_code": "0418",
+                                "done": true
+                              }
+                            ]
+                          },
+                          "children": []
+                        },
+                        {
+                          "name": "Шайба G1 ДПМА.712475.005 ЭМ",
+                          "attributes": {
+                            "product_name": "Шайба G1",
+                            "product_number": "ДПМА.712475.005 ЭМ",
+                            "status": 2,
+                            "quantity": 1,
+                            "product_revision": "Рев-02",
+                            "task_revision": "Рев-02",
+                            "revision_change": false,
+                            "operations": [
+                              {
+                                "operation": "Токарная",
+                                "area": "Механический участок",
+                                "area_code": "Уч04",
+                                "oper_code": "4110",
+                                "done": true
+                              },
+                              {
+                                "operation": "Комплектование",
+                                "area": "Участок комплектации",
+                                "area_code": "Уч07",
+                                "oper_code": "0418",
+                                "done": true
+                              }
+                            ]
+                          },
+                          "children": []
+                        },
+                        {
+                          "name": "Патрубок DN50 ДПМА.302239.005 ЭМ",
+                          "attributes": {
+                            "product_name": "Патрубок DN50",
+                            "product_number": "ДПМА.302239.005 ЭМ",
+                            "status": 2,
+                            "quantity": 1,
+                            "product_revision": "Рев-02",
+                            "task_revision": "Рев-02",
+                            "revision_change": false,
+                            "operations": [
+                              {
+                                "operation": "Комплектование",
+                                "area": "Участок комплектации",
+                                "area_code": "Уч07",
+                                "oper_code": "0418",
+                                "done": true
+                              },
+                              {
+                                "operation": "Очистка дробеструйная",
+                                "area": "Участок подготовки поверхности",
+                                "area_code": "Уч01",
+                                "oper_code": "0136",
+                                "done": true
+                              },
+                              {
+                                "operation": "Ленточно (проволочно) - отрезная",
+                                "area": "Заготовительный участок",
+                                "area_code": "Уч02",
+                                "oper_code": "4282",
+                                "done": true
+                              },
+                              {
+                                "operation": "Контроль линейных размеров",
+                                "area": "Заготовительный участок",
+                                "area_code": "Уч02",
+                                "oper_code": "0220",
+                                "done": false
+                              },
+                              {
+                                "operation": "Дуговая сварка в инертных газах не плавящимся электродом с присадочным металлом",
+                                "area": "Сварочный участок",
+                                "area_code": "Уч05",
+                                "oper_code": "9041",
+                                "done": true
+                              },
+                              {
+                                "operation": "Контроль линейных размеров",
+                                "area": "Сварочный участок",
+                                "area_code": "Уч05",
+                                "oper_code": "0220",
+                                "done": false
+                              },
+                              {
+                                "operation": "Зачистка",
+                                "area": "Сварочный участок",
+                                "area_code": "Уч05",
+                                "oper_code": "0109",
+                                "done": false
+                              },
+                              {
+                                "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                                "area": "Сварочный участок",
+                                "area_code": "Уч05",
+                                "oper_code": "9039",
+                                "done": true
+                              },
+                              {
+                                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                                "area": "Сварочный участок",
+                                "area_code": "Уч05",
+                                "oper_code": "0387",
+                                "done": false
+                              }
+                            ]
+                          },
+                          "children": [
+                            {
+                              "name": "Бобышка G-1.4 ДПМА.713161.001 ЭМ",
+                              "attributes": {
+                                "product_name": "Бобышка G-1.4",
+                                "product_number": "ДПМА.713161.001 ЭМ",
+                                "status": 2,
+                                "quantity": 1,
+                                "product_revision": "Рев-03",
+                                "task_revision": "Рев-03",
+                                "revision_change": false,
+                                "operations": [
+                                  {
+                                    "operation": "Токарная",
+                                    "area": "Механический участок",
+                                    "area_code": "Уч04",
+                                    "oper_code": "4110",
+                                    "done": true
+                                  },
+                                  {
+                                    "operation": "Комплектование",
+                                    "area": "Участок комплектации",
+                                    "area_code": "Уч07",
+                                    "oper_code": "0418",
+                                    "done": true
+                                  }
+                                ]
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Коллектор DN50-(50+20) ДПМА.302384.229-001 ЭМ",
+              "attributes": {
+                "product_name": "Коллектор DN50-(50+20)",
+                "product_number": "ДПМА.302384.229-001 ЭМ",
+                "status": 0,
+                "quantity": 1,
+                "product_revision": "Рев-01",
+                "task_revision": "",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": false
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": false
+                  },
+                  {
+                    "operation": "Ленточно (проволочно) - отрезная",
+                    "area": "Заготовительный участок",
+                    "area_code": "Уч02",
+                    "oper_code": "4282",
+                    "done": false
+                  },
+                  {
+                    "operation": "Контроль линейных размеров",
+                    "area": "Заготовительный участок",
+                    "area_code": "Уч02",
+                    "oper_code": "0220",
+                    "done": false
+                  },
+                  {
+                    "operation": "Дуговая сварка в инертных газах не плавящимся электродом с присадочным металлом",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "9041",
+                    "done": false
+                  },
+                  {
+                    "operation": "Контроль линейных размеров",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0220",
+                    "done": false
+                  },
+                  {
+                    "operation": "Зачистка",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0109",
+                    "done": false
+                  },
+                  {
+                    "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "9039",
+                    "done": false
+                  },
+                  {
+                    "operation": "Комплексный контроль геометрических параметров",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0260",
+                    "done": false
+                  },
+                  {
+                    "operation": "Контроль неразрушающий радиационный",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0381",
+                    "done": false
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": false
+                  },
+                  {
+                    "operation": "Грунтование распылением  электростатическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7313",
+                    "done": false
+                  },
+                  {
+                    "operation": "Контроль внешнего вида изделий, наличия клейм",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0387",
+                    "done": false
+                  },
+                  {
+                    "operation": "Окрашивание распылением  электростатическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7363",
+                    "done": false
+                  },
+                  {
+                    "operation": "Контроль внешнего вида изделий, наличия клейм",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0387",
+                    "done": false
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "name": "Бобышка БП-БТ G1_2 L30 ДПМА.713161.006 ЭМ",
+                  "attributes": {
+                    "product_name": "Бобышка БП-БТ G1_2 L30",
+                    "product_number": "ДПМА.713161.006 ЭМ",
+                    "status": 2,
+                    "quantity": 1,
+                    "product_revision": "Рев-02",
+                    "task_revision": "Рев-02",
+                    "revision_change": false,
+                    "operations": [
+                      {
+                        "operation": "Комплектование",
+                        "area": "Участок комплектации",
+                        "area_code": "Уч07",
+                        "oper_code": "0418",
+                        "done": true
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "name": "ФГ-1-DN50-50-Б-П с указателем перепада давления, с дренажным краном ДПМА.067119.008-003 ЭМ",
+                  "attributes": {
+                    "product_name": "ФГ-1-DN50-50-Б-П с указателем перепада давления, с дренажным краном",
+                    "product_number": "ДПМА.067119.008-003 ЭМ",
+                    "status": 0,
+                    "quantity": 1,
+                    "product_revision": "Рев-01",
+                    "task_revision": "",
+                    "revision_change": false,
+                    "operations": [
+                      {
+                        "operation": "Комплектование",
+                        "area": "Участок комплектации",
+                        "area_code": "Уч07",
+                        "oper_code": "0418",
+                        "done": false
+                      },
+                      {
+                        "operation": "Слесарно-сборочная",
+                        "area": "Сборочный участок",
+                        "area_code": "Уч06",
+                        "oper_code": "8864",
+                        "done": false
+                      }
+                    ]
+                  },
+                  "children": [
+                    {
+                      "name": "ФГ-1-DN50-50-Б-П ДПМА.067119.008-002 ЭМ",
+                      "attributes": {
+                        "product_name": "ФГ-1-DN50-50-Б-П",
+                        "product_number": "ДПМА.067119.008-002 ЭМ",
+                        "status": 2,
+                        "quantity": 1,
+                        "product_revision": "Рев-01",
+                        "task_revision": "Рев-01",
+                        "revision_change": false,
+                        "operations": [
+                          {
+                            "operation": "Комплектование",
+                            "area": "Участок комплектации",
+                            "area_code": "Уч07",
+                            "oper_code": "0418",
+                            "done": true
+                          },
+                          {
+                            "operation": "Очистка дробеструйная",
+                            "area": "Участок подготовки поверхности",
+                            "area_code": "Уч01",
+                            "oper_code": "0136",
+                            "done": true
+                          },
+                          {
+                            "operation": "Ленточно (проволочно) - отрезная",
+                            "area": "Заготовительный участок",
+                            "area_code": "Уч02",
+                            "oper_code": "4282",
+                            "done": true
+                          },
+                          {
+                            "operation": "Дуговая сварка в инертных газах не плавящимся электродом с присадочным металлом",
+                            "area": "Сварочный участок",
+                            "area_code": "Уч05",
+                            "oper_code": "9041",
+                            "done": true
+                          },
+                          {
+                            "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                            "area": "Сварочный участок",
+                            "area_code": "Уч05",
+                            "oper_code": "9039",
+                            "done": true
+                          },
+                          {
+                            "operation": "Контроль неразрушающий радиационный",
+                            "area": "Сварочный участок",
+                            "area_code": "Уч05",
+                            "oper_code": "0381",
+                            "done": true
+                          },
+                          {
+                            "operation": "Грунтование распылением  электростатическим",
+                            "area": "Участок подготовки поверхности",
+                            "area_code": "Уч01",
+                            "oper_code": "7313",
+                            "done": true
+                          },
+                          {
+                            "operation": "Окрашивание распылением  электростатическим",
+                            "area": "Участок подготовки поверхности",
+                            "area_code": "Уч01",
+                            "oper_code": "7363",
+                            "done": true
+                          },
+                          {
+                            "operation": "Слесарно-сборочная",
+                            "area": "Сборочный участок",
+                            "area_code": "Уч06",
+                            "oper_code": "8864",
+                            "done": true
+                          }
+                        ]
+                      },
+                      "children": [
+                        {
+                          "name": "Шпилька М12х340 ДПМА.715111.001 ЭМ",
+                          "attributes": {
+                            "product_name": "Шпилька М12х340",
+                            "product_number": "ДПМА.715111.001 ЭМ",
+                            "status": 2,
+                            "quantity": 1,
+                            "product_revision": "Рев-01",
+                            "task_revision": "Рев-01",
+                            "revision_change": false,
+                            "operations": [
+                              {
+                                "operation": "Токарная",
+                                "area": "Механический участок",
+                                "area_code": "Уч04",
+                                "oper_code": "4110",
+                                "done": true
+                              },
+                              {
+                                "operation": "Комплектование",
+                                "area": "Участок комплектации",
+                                "area_code": "Уч07",
+                                "oper_code": "0418",
+                                "done": true
+                              }
+                            ]
+                          },
+                          "children": []
+                        },
+                        {
+                          "name": "Бобышка G-1.4 ДПМА.713161.001 ЭМ",
+                          "attributes": {
+                            "product_name": "Бобышка G-1.4",
+                            "product_number": "ДПМА.713161.001 ЭМ",
+                            "status": 2,
+                            "quantity": 1,
+                            "product_revision": "Рев-03",
+                            "task_revision": "Рев-03",
+                            "revision_change": false,
+                            "operations": [
+                              {
+                                "operation": "Токарная",
+                                "area": "Механический участок",
+                                "area_code": "Уч04",
+                                "oper_code": "4110",
+                                "done": true
+                              },
+                              {
+                                "operation": "Комплектование",
+                                "area": "Участок комплектации",
+                                "area_code": "Уч07",
+                                "oper_code": "0418",
+                                "done": true
+                              }
+                            ]
+                          },
+                          "children": []
+                        },
+                        {
+                          "name": "Шайба ответная G1 ДПМА.712475.006 ЭМ",
+                          "attributes": {
+                            "product_name": "Шайба ответная G1",
+                            "product_number": "ДПМА.712475.006 ЭМ",
+                            "status": 2,
+                            "quantity": 1,
+                            "product_revision": "Рев-02",
+                            "task_revision": "Рев-02",
+                            "revision_change": false,
+                            "operations": [
+                              {
+                                "operation": "Токарная",
+                                "area": "Механический участок",
+                                "area_code": "Уч04",
+                                "oper_code": "4110",
+                                "done": true
+                              },
+                              {
+                                "operation": "Комплектование",
+                                "area": "Участок комплектации",
+                                "area_code": "Уч07",
+                                "oper_code": "0418",
+                                "done": true
+                              }
+                            ]
+                          },
+                          "children": []
+                        },
+                        {
+                          "name": "Шайба G1 ДПМА.712475.005 ЭМ",
+                          "attributes": {
+                            "product_name": "Шайба G1",
+                            "product_number": "ДПМА.712475.005 ЭМ",
+                            "status": 2,
+                            "quantity": 1,
+                            "product_revision": "Рев-02",
+                            "task_revision": "Рев-02",
+                            "revision_change": false,
+                            "operations": [
+                              {
+                                "operation": "Токарная",
+                                "area": "Механический участок",
+                                "area_code": "Уч04",
+                                "oper_code": "4110",
+                                "done": true
+                              },
+                              {
+                                "operation": "Комплектование",
+                                "area": "Участок комплектации",
+                                "area_code": "Уч07",
+                                "oper_code": "0418",
+                                "done": true
+                              }
+                            ]
+                          },
+                          "children": []
+                        },
+                        {
+                          "name": "Патрубок DN50 ДПМА.302239.005 ЭМ",
+                          "attributes": {
+                            "product_name": "Патрубок DN50",
+                            "product_number": "ДПМА.302239.005 ЭМ",
+                            "status": 2,
+                            "quantity": 1,
+                            "product_revision": "Рев-02",
+                            "task_revision": "Рев-02",
+                            "revision_change": false,
+                            "operations": [
+                              {
+                                "operation": "Комплектование",
+                                "area": "Участок комплектации",
+                                "area_code": "Уч07",
+                                "oper_code": "0418",
+                                "done": true
+                              },
+                              {
+                                "operation": "Очистка дробеструйная",
+                                "area": "Участок подготовки поверхности",
+                                "area_code": "Уч01",
+                                "oper_code": "0136",
+                                "done": true
+                              },
+                              {
+                                "operation": "Ленточно (проволочно) - отрезная",
+                                "area": "Заготовительный участок",
+                                "area_code": "Уч02",
+                                "oper_code": "4282",
+                                "done": true
+                              },
+                              {
+                                "operation": "Дуговая сварка в инертных газах не плавящимся электродом с присадочным металлом",
+                                "area": "Сварочный участок",
+                                "area_code": "Уч05",
+                                "oper_code": "9041",
+                                "done": true
+                              },
+                              {
+                                "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                                "area": "Сварочный участок",
+                                "area_code": "Уч05",
+                                "oper_code": "9039",
+                                "done": true
+                              },
+                              {
+                                "operation": "Грунтование распылением  электростатическим",
+                                "area": "Участок подготовки поверхности",
+                                "area_code": "Уч01",
+                                "oper_code": "7313",
+                                "done": true
+                              },
+                              {
+                                "operation": "Окрашивание распылением  электростатическим",
+                                "area": "Участок подготовки поверхности",
+                                "area_code": "Уч01",
+                                "oper_code": "7363",
+                                "done": true
+                              }
+                            ]
+                          },
+                          "children": [
+                            {
+                              "name": "Бобышка G-1.4 ДПМА.713161.001 ЭМ",
+                              "attributes": {
+                                "product_name": "Бобышка G-1.4",
+                                "product_number": "ДПМА.713161.001 ЭМ",
+                                "status": 2,
+                                "quantity": 1,
+                                "product_revision": "Рев-03",
+                                "task_revision": "Рев-03",
+                                "revision_change": false,
+                                "operations": [
+                                  {
+                                    "operation": "Токарная",
+                                    "area": "Механический участок",
+                                    "area_code": "Уч04",
+                                    "oper_code": "4110",
+                                    "done": true
+                                  },
+                                  {
+                                    "operation": "Комплектование",
+                                    "area": "Участок комплектации",
+                                    "area_code": "Уч07",
+                                    "oper_code": "0418",
+                                    "done": true
+                                  }
+                                ]
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Патрубок DN125-150 ДПМА.302143.058 ЭМ",
+              "attributes": {
+                "product_name": "Патрубок DN125-150",
+                "product_number": "ДПМА.302143.058 ЭМ",
+                "status": 2,
+                "quantity": 2,
+                "product_revision": "Рев-03",
+                "task_revision": "",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": true
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": true
+                  },
+                  {
+                    "operation": "Ленточно (проволочно) - отрезная",
+                    "area": "Заготовительный участок",
+                    "area_code": "Уч02",
+                    "oper_code": "4282",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль линейных размеров",
+                    "area": "Заготовительный участок",
+                    "area_code": "Уч02",
+                    "oper_code": "0220",
+                    "done": false
+                  },
+                  {
+                    "operation": "Дуговая сварка в инертных газах не плавящимся электродом с присадочным металлом",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "9041",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль линейных размеров",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0220",
+                    "done": false
+                  },
+                  {
+                    "operation": "Зачистка",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0109",
+                    "done": false
+                  },
+                  {
+                    "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "9039",
+                    "done": true
+                  },
+                  {
+                    "operation": "Комплексный контроль геометрических параметров",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0260",
+                    "done": false
+                  },
+                  {
+                    "operation": "Контроль неразрушающий радиационный",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0381",
+                    "done": true
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": true
+                  },
+                  {
+                    "operation": "Грунтование распылением  электростатическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7313",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль внешнего вида изделий, наличия клейм",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0387",
+                    "done": false
+                  },
+                  {
+                    "operation": "Окрашивание распылением  электростатическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7363",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль внешнего вида изделий, наличия клейм",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0387",
+                    "done": false
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "name": "Коллектор DN125-(50+20) ДПМА.302284.053 ЭМ",
+              "attributes": {
+                "product_name": "Коллектор DN125-(50+20)",
+                "product_number": "ДПМА.302284.053 ЭМ",
+                "status": 2,
+                "quantity": 1,
+                "product_revision": "Рев-01",
+                "task_revision": "Рев-01",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": true
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": true
+                  },
+                  {
+                    "operation": "Ленточно (проволочно) - отрезная",
+                    "area": "Заготовительный участок",
+                    "area_code": "Уч02",
+                    "oper_code": "4282",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль линейных размеров",
+                    "area": "Заготовительный участок",
+                    "area_code": "Уч02",
+                    "oper_code": "0220",
+                    "done": false
+                  },
+                  {
+                    "operation": "Дуговая сварка в инертных газах не плавящимся электродом с присадочным металлом",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "9041",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль линейных размеров",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0220",
+                    "done": false
+                  },
+                  {
+                    "operation": "Зачистка",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0109",
+                    "done": false
+                  },
+                  {
+                    "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "9039",
+                    "done": true
+                  },
+                  {
+                    "operation": "Комплексный контроль геометрических параметров",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0260",
+                    "done": false
+                  },
+                  {
+                    "operation": "Контроль неразрушающий радиационный",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0381",
+                    "done": true
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": true
+                  },
+                  {
+                    "operation": "Грунтование распылением  электростатическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7313",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль внешнего вида изделий, наличия клейм",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0387",
+                    "done": false
+                  },
+                  {
+                    "operation": "Окрашивание распылением  электростатическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7363",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль внешнего вида изделий, наличия клейм",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0387",
+                    "done": false
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "name": "Бобышка БП-БТ G1_2 L30 ДПМА.713161.006 ЭМ",
+                  "attributes": {
+                    "product_name": "Бобышка БП-БТ G1_2 L30",
+                    "product_number": "ДПМА.713161.006 ЭМ",
+                    "status": 2,
+                    "quantity": 1,
+                    "product_revision": "Рев-02",
+                    "task_revision": "Рев-02",
+                    "revision_change": false,
+                    "operations": [
+                      {
+                        "operation": "Комплектование",
+                        "area": "Участок комплектации",
+                        "area_code": "Уч07",
+                        "oper_code": "0418",
+                        "done": true
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Коллектор DN125-(2DN150+25) ДПМА.302384.230 ЭМ",
+              "attributes": {
+                "product_name": "Коллектор DN125-(2DN150+25)",
+                "product_number": "ДПМА.302384.230 ЭМ",
+                "status": 2,
+                "quantity": 1,
+                "product_revision": "Рев-03",
+                "task_revision": "Рев-03",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": true
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": true
+                  },
+                  {
+                    "operation": "Ленточно (проволочно) - отрезная",
+                    "area": "Заготовительный участок",
+                    "area_code": "Уч02",
+                    "oper_code": "4282",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль линейных размеров",
+                    "area": "Заготовительный участок",
+                    "area_code": "Уч02",
+                    "oper_code": "0220",
+                    "done": false
+                  },
+                  {
+                    "operation": "Дуговая сварка в инертных газах не плавящимся электродом с присадочным металлом",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "9041",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль линейных размеров",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0220",
+                    "done": false
+                  },
+                  {
+                    "operation": "Зачистка",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0109",
+                    "done": false
+                  },
+                  {
+                    "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "9039",
+                    "done": true
+                  },
+                  {
+                    "operation": "Комплексный контроль геометрических параметров",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0260",
+                    "done": false
+                  },
+                  {
+                    "operation": "Контроль неразрушающий радиационный",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0381",
+                    "done": true
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": true
+                  },
+                  {
+                    "operation": "Грунтование распылением  электростатическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7313",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль внешнего вида изделий, наличия клейм",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0387",
+                    "done": false
+                  },
+                  {
+                    "operation": "Окрашивание распылением  электростатическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7363",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль внешнего вида изделий, наличия клейм",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0387",
+                    "done": false
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "name": "Коллектор DN125-(50+20) ДПМА.302384.231 ЭМ",
+              "attributes": {
+                "product_name": "Коллектор DN125-(50+20)",
+                "product_number": "ДПМА.302384.231 ЭМ",
+                "status": 2,
+                "quantity": 1,
+                "product_revision": "Рев-01",
+                "task_revision": "Рев-01",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": true
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": true
+                  },
+                  {
+                    "operation": "Ленточно (проволочно) - отрезная",
+                    "area": "Заготовительный участок",
+                    "area_code": "Уч02",
+                    "oper_code": "4282",
+                    "done": true
+                  },
+                  {
+                    "operation": "Дуговая сварка в инертных газах не плавящимся электродом с присадочным металлом",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "9041",
+                    "done": true
+                  },
+                  {
+                    "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "9039",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль неразрушающий радиационный",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0381",
+                    "done": true
+                  },
+                  {
+                    "operation": "Грунтование распылением  электростатическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7313",
+                    "done": true
+                  },
+                  {
+                    "operation": "Окрашивание распылением  электростатическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7363",
+                    "done": true
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "name": "Бобышка БП-БТ G1_2 L30 ДПМА.713161.006 ЭМ",
+                  "attributes": {
+                    "product_name": "Бобышка БП-БТ G1_2 L30",
+                    "product_number": "ДПМА.713161.006 ЭМ",
+                    "status": 2,
+                    "quantity": 1,
+                    "product_revision": "Рев-02",
+                    "task_revision": "Рев-02",
+                    "revision_change": false,
+                    "operations": [
+                      {
+                        "operation": "Комплектование",
+                        "area": "Участок комплектации",
+                        "area_code": "Уч07",
+                        "oper_code": "0418",
+                        "done": true
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Патрубок DN50 ДПМА.302123.053 ЭМ",
+              "attributes": {
+                "product_name": "Патрубок DN50",
+                "product_number": "ДПМА.302123.053 ЭМ",
+                "status": 2,
+                "quantity": 1,
+                "product_revision": "Рев-01",
+                "task_revision": "",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": true
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": true
+                  },
+                  {
+                    "operation": "Ленточно (проволочно) - отрезная",
+                    "area": "Заготовительный участок",
+                    "area_code": "Уч02",
+                    "oper_code": "4282",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль линейных размеров",
+                    "area": "Заготовительный участок",
+                    "area_code": "Уч02",
+                    "oper_code": "0220",
+                    "done": false
+                  },
+                  {
+                    "operation": "Дуговая сварка в инертных газах не плавящимся электродом с присадочным металлом",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "9041",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль линейных размеров",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0220",
+                    "done": false
+                  },
+                  {
+                    "operation": "Зачистка",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0109",
+                    "done": false
+                  },
+                  {
+                    "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "9039",
+                    "done": true
+                  },
+                  {
+                    "operation": "Комплексный контроль геометрических параметров",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0260",
+                    "done": false
+                  },
+                  {
+                    "operation": "Контроль неразрушающий радиационный",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0381",
+                    "done": true
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": true
+                  },
+                  {
+                    "operation": "Грунтование распылением  электростатическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7313",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль внешнего вида изделий, наличия клейм",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0387",
+                    "done": false
+                  },
+                  {
+                    "operation": "Окрашивание распылением  электростатическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7363",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль внешнего вида изделий, наличия клейм",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0387",
+                    "done": false
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "name": "Патрубок DN125 ДПМА.302143.059 ЭМ",
+              "attributes": {
+                "product_name": "Патрубок DN125",
+                "product_number": "ДПМА.302143.059 ЭМ",
+                "status": 2,
+                "quantity": 1,
+                "product_revision": "Рев-01",
+                "task_revision": "",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": true
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": true
+                  },
+                  {
+                    "operation": "Ленточно (проволочно) - отрезная",
+                    "area": "Заготовительный участок",
+                    "area_code": "Уч02",
+                    "oper_code": "4282",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль линейных размеров",
+                    "area": "Заготовительный участок",
+                    "area_code": "Уч02",
+                    "oper_code": "0220",
+                    "done": false
+                  },
+                  {
+                    "operation": "Дуговая сварка в инертных газах не плавящимся электродом с присадочным металлом",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "9041",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль линейных размеров",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0220",
+                    "done": false
+                  },
+                  {
+                    "operation": "Зачистка",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0109",
+                    "done": false
+                  },
+                  {
+                    "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "9039",
+                    "done": true
+                  },
+                  {
+                    "operation": "Комплексный контроль геометрических параметров",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0260",
+                    "done": false
+                  },
+                  {
+                    "operation": "Контроль неразрушающий радиационный",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0381",
+                    "done": true
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": true
+                  },
+                  {
+                    "operation": "Грунтование распылением  электростатическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7313",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль внешнего вида изделий, наличия клейм",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0387",
+                    "done": false
+                  },
+                  {
+                    "operation": "Окрашивание распылением  электростатическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7363",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль внешнего вида изделий, наличия клейм",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0387",
+                    "done": false
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "name": "Коллектор DN50-2DN50 ДПМА.302324.025 ЭМ",
+              "attributes": {
+                "product_name": "Коллектор DN50-2DN50",
+                "product_number": "ДПМА.302324.025 ЭМ",
+                "status": 2,
+                "quantity": 1,
+                "product_revision": "Рев-01",
+                "task_revision": "Рев-01",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": true
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": true
+                  },
+                  {
+                    "operation": "Ленточно (проволочно) - отрезная",
+                    "area": "Заготовительный участок",
+                    "area_code": "Уч02",
+                    "oper_code": "4282",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль линейных размеров",
+                    "area": "Заготовительный участок",
+                    "area_code": "Уч02",
+                    "oper_code": "0220",
+                    "done": false
+                  },
+                  {
+                    "operation": "Дуговая сварка в инертных газах не плавящимся электродом с присадочным металлом",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "9041",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль линейных размеров",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0220",
+                    "done": false
+                  },
+                  {
+                    "operation": "Зачистка",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0109",
+                    "done": false
+                  },
+                  {
+                    "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "9039",
+                    "done": true
+                  },
+                  {
+                    "operation": "Комплексный контроль геометрических параметров",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0260",
+                    "done": false
+                  },
+                  {
+                    "operation": "Контроль неразрушающий радиационный",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0381",
+                    "done": true
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": true
+                  },
+                  {
+                    "operation": "Грунтование распылением  электростатическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7313",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль внешнего вида изделий, наличия клейм",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0387",
+                    "done": false
+                  },
+                  {
+                    "operation": "Окрашивание распылением  электростатическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7363",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль внешнего вида изделий, наличия клейм",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0387",
+                    "done": false
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "name": "Бобышка БП-БТ G1_2 L30 ДПМА.713161.006 ЭМ",
+                  "attributes": {
+                    "product_name": "Бобышка БП-БТ G1_2 L30",
+                    "product_number": "ДПМА.713161.006 ЭМ",
+                    "status": 2,
+                    "quantity": 1,
+                    "product_revision": "Рев-02",
+                    "task_revision": "Рев-02",
+                    "revision_change": false,
+                    "operations": [
+                      {
+                        "operation": "Комплектование",
+                        "area": "Участок комплектации",
+                        "area_code": "Уч07",
+                        "oper_code": "0418",
+                        "done": true
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Коллектор DN25-(25+15) ДПМА.302219.012 ЭМ",
+              "attributes": {
+                "product_name": "Коллектор DN25-(25+15)",
+                "product_number": "ДПМА.302219.012 ЭМ",
+                "status": 2,
+                "quantity": 1,
+                "product_revision": "Рев-01",
+                "task_revision": "Рев-01",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": true
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": true
+                  },
+                  {
+                    "operation": "Ленточно (проволочно) - отрезная",
+                    "area": "Заготовительный участок",
+                    "area_code": "Уч02",
+                    "oper_code": "4282",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль линейных размеров",
+                    "area": "Заготовительный участок",
+                    "area_code": "Уч02",
+                    "oper_code": "0220",
+                    "done": false
+                  },
+                  {
+                    "operation": "Дуговая сварка в инертных газах не плавящимся электродом с присадочным металлом",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "9041",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль линейных размеров",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0220",
+                    "done": false
+                  },
+                  {
+                    "operation": "Зачистка",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0109",
+                    "done": false
+                  },
+                  {
+                    "operation": "Контроль внешнего вида изделий, наличия клейм",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0387",
+                    "done": false
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": true
+                  },
+                  {
+                    "operation": "Грунтование распылением пневматическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7311",
+                    "done": false
+                  },
+                  {
+                    "operation": "Контроль внешнего вида изделий, наличия клейм",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0387",
+                    "done": false
+                  },
+                  {
+                    "operation": "Окрашивание распылением пневматическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7361",
+                    "done": false
+                  },
+                  {
+                    "operation": "Контроль внешнего вида изделий, наличия клейм",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0387",
+                    "done": false
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "name": "Бобышка БП-БТ G1_2 L30 ДПМА.713161.006 ЭМ",
+                  "attributes": {
+                    "product_name": "Бобышка БП-БТ G1_2 L30",
+                    "product_number": "ДПМА.713161.006 ЭМ",
+                    "status": 2,
+                    "quantity": 1,
+                    "product_revision": "Рев-02",
+                    "task_revision": "Рев-02",
+                    "revision_change": false,
+                    "operations": [
+                      {
+                        "operation": "Комплектование",
+                        "area": "Участок комплектации",
+                        "area_code": "Уч07",
+                        "oper_code": "0418",
+                        "done": true
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Патрубок DN25 ДПМА.302216.046 ЭМ",
+              "attributes": {
+                "product_name": "Патрубок DN25",
+                "product_number": "ДПМА.302216.046 ЭМ",
+                "status": 2,
+                "quantity": 1,
+                "product_revision": "Рев-01",
+                "task_revision": "",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": true
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": true
+                  },
+                  {
+                    "operation": "Ленточно (проволочно) - отрезная",
+                    "area": "Заготовительный участок",
+                    "area_code": "Уч02",
+                    "oper_code": "4282",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль линейных размеров",
+                    "area": "Заготовительный участок",
+                    "area_code": "Уч02",
+                    "oper_code": "0220",
+                    "done": false
+                  },
+                  {
+                    "operation": "Дуговая сварка в инертных газах не плавящимся электродом с присадочным металлом",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "9041",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль линейных размеров",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0220",
+                    "done": false
+                  },
+                  {
+                    "operation": "Зачистка",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0109",
+                    "done": false
+                  },
+                  {
+                    "operation": "Контроль неразрушающий радиационный",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0381",
+                    "done": false
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": true
+                  },
+                  {
+                    "operation": "Грунтование распылением  электростатическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7313",
+                    "done": false
+                  },
+                  {
+                    "operation": "Контроль внешнего вида изделий, наличия клейм",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0387",
+                    "done": false
+                  },
+                  {
+                    "operation": "Окрашивание распылением  электростатическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7363",
+                    "done": false
+                  },
+                  {
+                    "operation": "Контроль внешнего вида изделий, наличия клейм",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0387",
+                    "done": false
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "name": "Патрубок DN25 ДПМА.302115.029 ЭМ",
+              "attributes": {
+                "product_name": "Патрубок DN25",
+                "product_number": "ДПМА.302115.029 ЭМ",
+                "status": 2,
+                "quantity": 1,
+                "product_revision": "Рев-01",
+                "task_revision": "",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": true
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": true
+                  },
+                  {
+                    "operation": "Ленточно (проволочно) - отрезная",
+                    "area": "Заготовительный участок",
+                    "area_code": "Уч02",
+                    "oper_code": "4282",
+                    "done": true
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "name": "Коллектор 2DN20 ДПМА.302319.079-001 ЭМ",
+              "attributes": {
+                "product_name": "Коллектор 2DN20",
+                "product_number": "ДПМА.302319.079-001 ЭМ",
+                "status": 2,
+                "quantity": 1,
+                "product_revision": "Рев-01",
+                "task_revision": "Рев-01",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": true
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": true
+                  },
+                  {
+                    "operation": "Ленточно (проволочно) - отрезная",
+                    "area": "Заготовительный участок",
+                    "area_code": "Уч02",
+                    "oper_code": "4282",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль линейных размеров",
+                    "area": "Заготовительный участок",
+                    "area_code": "Уч02",
+                    "oper_code": "0220",
+                    "done": false
+                  },
+                  {
+                    "operation": "Дуговая сварка в инертных газах не плавящимся электродом с присадочным металлом",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "9041",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль линейных размеров",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0220",
+                    "done": false
+                  },
+                  {
+                    "operation": "Зачистка",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0109",
+                    "done": false
+                  },
+                  {
+                    "operation": "Контроль неразрушающий радиационный",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0381",
+                    "done": true
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": true
+                  },
+                  {
+                    "operation": "Грунтование распылением  электростатическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7313",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль внешнего вида изделий, наличия клейм",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0387",
+                    "done": false
+                  },
+                  {
+                    "operation": "Окрашивание распылением  электростатическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7363",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль внешнего вида изделий, наличия клейм",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0387",
+                    "done": false
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "name": "Коллектор 2DN20 ДПМА.302319.079 ЭМ",
+                  "attributes": {
+                    "product_name": "Коллектор 2DN20",
+                    "product_number": "ДПМА.302319.079 ЭМ",
+                    "status": 2,
+                    "quantity": 1,
+                    "product_revision": "Рев-01",
+                    "task_revision": "",
+                    "revision_change": false,
+                    "operations": [
+                      {
+                        "operation": "Комплектование",
+                        "area": "Участок комплектации",
+                        "area_code": "Уч07",
+                        "oper_code": "0418",
+                        "done": true
+                      },
+                      {
+                        "operation": "Очистка дробеструйная",
+                        "area": "Участок подготовки поверхности",
+                        "area_code": "Уч01",
+                        "oper_code": "0136",
+                        "done": true
+                      },
+                      {
+                        "operation": "Ленточно (проволочно) - отрезная",
+                        "area": "Заготовительный участок",
+                        "area_code": "Уч02",
+                        "oper_code": "4282",
+                        "done": true
+                      },
+                      {
+                        "operation": "Дуговая сварка в инертных газах не плавящимся электродом с присадочным металлом",
+                        "area": "Сварочный участок",
+                        "area_code": "Уч05",
+                        "oper_code": "9041",
+                        "done": true
+                      },
+                      {
+                        "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                        "area": "Сварочный участок",
+                        "area_code": "Уч05",
+                        "oper_code": "9039",
+                        "done": true
+                      },
+                      {
+                        "operation": "Контроль неразрушающий радиационный",
+                        "area": "Сварочный участок",
+                        "area_code": "Уч05",
+                        "oper_code": "0381",
+                        "done": true
+                      },
+                      {
+                        "operation": "Грунтование распылением  электростатическим",
+                        "area": "Участок подготовки поверхности",
+                        "area_code": "Уч01",
+                        "oper_code": "7313",
+                        "done": true
+                      },
+                      {
+                        "operation": "Окрашивание распылением  электростатическим",
+                        "area": "Участок подготовки поверхности",
+                        "area_code": "Уч01",
+                        "oper_code": "7363",
+                        "done": true
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Перемычка ДПМА.305177.020 ЭМ",
+              "attributes": {
+                "product_name": "Перемычка",
+                "product_number": "ДПМА.305177.020 ЭМ",
+                "status": 2,
+                "quantity": 1,
+                "product_revision": "Рев-01",
+                "task_revision": "Рев-01",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": true
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": true
+                  },
+                  {
+                    "operation": "Ленточно (проволочно) - отрезная",
+                    "area": "Заготовительный участок",
+                    "area_code": "Уч02",
+                    "oper_code": "4282",
+                    "done": true
+                  },
+                  {
+                    "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "9039",
+                    "done": true
+                  },
+                  {
+                    "operation": "Контроль линейных размеров",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0220",
+                    "done": false
+                  },
+                  {
+                    "operation": "Зачистка",
+                    "area": "Сварочный участок",
+                    "area_code": "Уч05",
+                    "oper_code": "0109",
+                    "done": false
+                  },
+                  {
+                    "operation": "Очистка дробеструйная",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0136",
+                    "done": true
+                  },
+                  {
+                    "operation": "Грунтование распылением  электростатическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7313",
+                    "done": false
+                  },
+                  {
+                    "operation": "Контроль внешнего вида изделий, наличия клейм",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0387",
+                    "done": false
+                  },
+                  {
+                    "operation": "Окрашивание распылением пневматическим",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "7361",
+                    "done": false
+                  },
+                  {
+                    "operation": "Контроль внешнего вида изделий, наличия клейм",
+                    "area": "Участок подготовки поверхности",
+                    "area_code": "Уч01",
+                    "oper_code": "0387",
+                    "done": false
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "name": "Комплект монтажных частей ДПМА.305621.086 ЭМ",
+              "attributes": {
+                "product_name": "Комплект монтажных частей",
+                "product_number": "ДПМА.305621.086 ЭМ",
+                "status": 2,
+                "quantity": 1,
+                "product_revision": "Рев-01",
+                "task_revision": "Рев-01",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": true
+                  },
+                  {
+                    "operation": "Слесарно-сборочная",
+                    "area": "Сборочный участок",
+                    "area_code": "Уч06",
+                    "oper_code": "8864",
+                    "done": true
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Рама ГРУ ДПМА.301228.144 ЭМ",
+      "attributes": {
+        "product_name": "Рама ГРУ",
+        "product_number": "ДПМА.301228.144 ЭМ",
+        "status": 2,
+        "quantity": 1,
+        "product_revision": "Рев-01",
+        "task_revision": "",
+        "revision_change": false,
+        "operations": [
+          {
+            "operation": "Комплектование",
+            "area": "Участок комплектации",
+            "area_code": "Уч07",
+            "oper_code": "0418",
+            "done": true
+          },
+          {
+            "operation": "Очистка дробеструйная",
+            "area": "Участок подготовки поверхности",
+            "area_code": "Уч01",
+            "oper_code": "0136",
+            "done": true
+          },
+          {
+            "operation": "Ленточно (проволочно) - отрезная",
+            "area": "Заготовительный участок",
+            "area_code": "Уч02",
+            "oper_code": "4282",
+            "done": true
+          },
+          {
+            "operation": "Контроль линейных размеров",
+            "area": "Заготовительный участок",
+            "area_code": "Уч02",
+            "oper_code": "0220",
+            "done": false
+          },
+          {
+            "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+            "area": "Сварочный участок",
+            "area_code": "Уч05",
+            "oper_code": "9039",
+            "done": true
+          },
+          {
+            "operation": "Комплексный контроль геометрических параметров",
+            "area": "Сварочный участок",
+            "area_code": "Уч05",
+            "oper_code": "0260",
+            "done": false
+          },
+          {
+            "operation": "Зачистка",
+            "area": "Сварочный участок",
+            "area_code": "Уч05",
+            "oper_code": "0109",
+            "done": false
+          },
+          {
+            "operation": "Очистка дробеструйная",
+            "area": "Участок подготовки поверхности",
+            "area_code": "Уч01",
+            "oper_code": "0136",
+            "done": true
+          },
+          {
+            "operation": "Грунтование распылением пневматическим",
+            "area": "Участок подготовки поверхности",
+            "area_code": "Уч01",
+            "oper_code": "7311",
+            "done": true
+          },
+          {
+            "operation": "Окрашивание распылением пневматическим",
+            "area": "Участок подготовки поверхности",
+            "area_code": "Уч01",
+            "oper_code": "7361",
+            "done": true
+          },
+          {
+            "operation": "Контроль внешнего вида изделий, наличия клейм",
+            "area": "Участок подготовки поверхности",
+            "area_code": "Уч01",
+            "oper_code": "0387",
+            "done": false
+          }
+        ]
+      },
+      "children": []
+    },
+    {
+      "name": "Кожух GK5-3 ДПМА.305157.005-003 ЭМ",
+      "attributes": {
+        "product_name": "Кожух GK5-3",
+        "product_number": "ДПМА.305157.005-003 ЭМ",
+        "status": 2,
+        "quantity": 1,
+        "product_revision": "Рев-01",
+        "task_revision": "Рев-01",
+        "revision_change": false,
+        "operations": [
+          {
+            "operation": "Комплектование",
+            "area": "Участок комплектации",
+            "area_code": "Уч07",
+            "oper_code": "0418",
+            "done": true
+          },
+          {
+            "operation": "Приклеивание",
+            "area": "Сборочный участок",
+            "area_code": "Уч06",
+            "oper_code": "8866",
+            "done": true
+          },
+          {
+            "operation": "Слесарно-сборочная",
+            "area": "Сборочный участок",
+            "area_code": "Уч06",
+            "oper_code": "8864",
+            "done": true
+          }
+        ]
+      },
+      "children": [
+        {
+          "name": "Стопор двери ДПМА.746713.002 ЭМ",
+          "attributes": {
+            "product_name": "Стопор двери",
+            "product_number": "ДПМА.746713.002 ЭМ",
+            "status": 2,
+            "quantity": 2,
+            "product_revision": "Рев-01",
+            "task_revision": "Рев-01",
+            "revision_change": false,
+            "operations": [
+              {
+                "operation": "Комплектование",
+                "area": "Участок комплектации",
+                "area_code": "Уч07",
+                "oper_code": "0418",
+                "done": true
+              },
+              {
+                "operation": "Очистка дробеструйная",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0136",
+                "done": false
+              },
+              {
+                "operation": "Дуговая сварка в инертных газах не плавящимся электродом с присадочным металлом",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "9041",
+                "done": false
+              },
+              {
+                "operation": "Контроль линейных размеров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0220",
+                "done": false
+              },
+              {
+                "operation": "Обезжиривание химическое",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0191",
+                "done": false
+              },
+              {
+                "operation": "Грунтование распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7313",
+                "done": false
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              },
+              {
+                "operation": "Окрашивание распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7363",
+                "done": false
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              }
+            ]
+          },
+          "children": []
+        },
+        {
+          "name": "Втулка фиксатора двери ДПМА.711645.001 ЭМ",
+          "attributes": {
+            "product_name": "Втулка фиксатора двери",
+            "product_number": "ДПМА.711645.001 ЭМ",
+            "status": 2,
+            "quantity": 8,
+            "product_revision": "Рев-01",
+            "task_revision": "Рев-01",
+            "revision_change": false,
+            "operations": [
+              {
+                "operation": "Комплектование",
+                "area": "Участок комплектации",
+                "area_code": "Уч07",
+                "oper_code": "0418",
+                "done": true
+              },
+              {
+                "operation": "Токарная",
+                "area": "Механический участок",
+                "area_code": "Уч04",
+                "oper_code": "4110",
+                "done": false
+              },
+              {
+                "operation": "Контроль линейных размеров",
+                "area": "Механический участок",
+                "area_code": "Уч04",
+                "oper_code": "0220",
+                "done": false
+              }
+            ]
+          },
+          "children": []
+        },
+        {
+          "name": "Дверь левая ДПМА.305341.074 ЭМ",
+          "attributes": {
+            "product_name": "Дверь левая",
+            "product_number": "ДПМА.305341.074 ЭМ",
+            "status": 2,
+            "quantity": 1,
+            "product_revision": "Рев-01",
+            "task_revision": "Рев-01",
+            "revision_change": false,
+            "operations": [
+              {
+                "operation": "Комплектование",
+                "area": "Участок комплектации",
+                "area_code": "Уч07",
+                "oper_code": "0418",
+                "done": true
+              },
+              {
+                "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "9039",
+                "done": true
+              },
+              {
+                "operation": "Зачистка",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0109",
+                "done": false
+              },
+              {
+                "operation": "Контроль линейных размеров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0220",
+                "done": true
+              },
+              {
+                "operation": "Комплексный контроль геометрических параметров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0260",
+                "done": false
+              },
+              {
+                "operation": "Очистка дробеструйная",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0136",
+                "done": true
+              },
+              {
+                "operation": "Грунтование распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7313",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              },
+              {
+                "operation": "Окрашивание распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7363",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              }
+            ]
+          },
+          "children": []
+        },
+        {
+          "name": "Дверь правая ДПМА.305341.073 ЭМ",
+          "attributes": {
+            "product_name": "Дверь правая",
+            "product_number": "ДПМА.305341.073 ЭМ",
+            "status": 2,
+            "quantity": 1,
+            "product_revision": "Рев-01",
+            "task_revision": "Рев-01",
+            "revision_change": false,
+            "operations": [
+              {
+                "operation": "Комплектование",
+                "area": "Участок комплектации",
+                "area_code": "Уч07",
+                "oper_code": "0418",
+                "done": true
+              },
+              {
+                "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "9039",
+                "done": true
+              },
+              {
+                "operation": "Зачистка",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0109",
+                "done": false
+              },
+              {
+                "operation": "Контроль линейных размеров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0220",
+                "done": true
+              },
+              {
+                "operation": "Комплексный контроль геометрических параметров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0260",
+                "done": false
+              },
+              {
+                "operation": "Очистка дробеструйная",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0136",
+                "done": true
+              },
+              {
+                "operation": "Грунтование распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7313",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              },
+              {
+                "operation": "Окрашивание распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7363",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              }
+            ]
+          },
+          "children": []
+        },
+        {
+          "name": "Дверь ДПМА.305341.072 ЭМ",
+          "attributes": {
+            "product_name": "Дверь",
+            "product_number": "ДПМА.305341.072 ЭМ",
+            "status": 2,
+            "quantity": 1,
+            "product_revision": "Рев-03",
+            "task_revision": "Рев-03",
+            "revision_change": false,
+            "operations": [
+              {
+                "operation": "Комплектование",
+                "area": "Участок комплектации",
+                "area_code": "Уч07",
+                "oper_code": "0418",
+                "done": true
+              },
+              {
+                "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "9039",
+                "done": true
+              },
+              {
+                "operation": "Зачистка",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0109",
+                "done": false
+              },
+              {
+                "operation": "Контроль линейных размеров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0220",
+                "done": true
+              },
+              {
+                "operation": "Комплексный контроль геометрических параметров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0260",
+                "done": false
+              },
+              {
+                "operation": "Очистка дробеструйная",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0136",
+                "done": true
+              },
+              {
+                "operation": "Грунтование распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7313",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              },
+              {
+                "operation": "Окрашивание распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7363",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              }
+            ]
+          },
+          "children": []
+        },
+        {
+          "name": "Кронштейн ДПМА.301561.005 ЭМ",
+          "attributes": {
+            "product_name": "Кронштейн",
+            "product_number": "ДПМА.301561.005 ЭМ",
+            "status": 2,
+            "quantity": 2,
+            "product_revision": "Рев-02",
+            "task_revision": "Рев-02",
+            "revision_change": false,
+            "operations": [
+              {
+                "operation": "Комплектование",
+                "area": "Участок комплектации",
+                "area_code": "Уч07",
+                "oper_code": "0418",
+                "done": true
+              },
+              {
+                "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "9039",
+                "done": true
+              },
+              {
+                "operation": "Зачистка",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0109",
+                "done": false
+              },
+              {
+                "operation": "Контроль линейных размеров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0220",
+                "done": true
+              },
+              {
+                "operation": "Комплексный контроль геометрических параметров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0260",
+                "done": false
+              },
+              {
+                "operation": "Очистка дробеструйная",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0136",
+                "done": true
+              },
+              {
+                "operation": "Грунтование распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7313",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              },
+              {
+                "operation": "Окрашивание распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7363",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              }
+            ]
+          },
+          "children": []
+        },
+        {
+          "name": "Панель передняя ДПМА.301132.152 ЭМ",
+          "attributes": {
+            "product_name": "Панель передняя",
+            "product_number": "ДПМА.301132.152 ЭМ",
+            "status": 2,
+            "quantity": 1,
+            "product_revision": "Рев-01",
+            "task_revision": "Рев-01",
+            "revision_change": false,
+            "operations": [
+              {
+                "operation": "Комплектование",
+                "area": "Участок комплектации",
+                "area_code": "Уч07",
+                "oper_code": "0418",
+                "done": true
+              },
+              {
+                "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "9039",
+                "done": true
+              },
+              {
+                "operation": "Зачистка",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0109",
+                "done": false
+              },
+              {
+                "operation": "Контроль линейных размеров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0220",
+                "done": true
+              },
+              {
+                "operation": "Комплексный контроль геометрических параметров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0260",
+                "done": false
+              },
+              {
+                "operation": "Очистка дробеструйная",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0136",
+                "done": true
+              },
+              {
+                "operation": "Грунтование распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7313",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              },
+              {
+                "operation": "Окрашивание распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7363",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              }
+            ]
+          },
+          "children": []
+        },
+        {
+          "name": "Стойка передняя правая ДПМА.301132.150-001 ЭМ",
+          "attributes": {
+            "product_name": "Стойка передняя правая",
+            "product_number": "ДПМА.301132.150-001 ЭМ",
+            "status": 2,
+            "quantity": 1,
+            "product_revision": "Рев-01",
+            "task_revision": "Рев-01",
+            "revision_change": false,
+            "operations": [
+              {
+                "operation": "Комплектование",
+                "area": "Участок комплектации",
+                "area_code": "Уч07",
+                "oper_code": "0418",
+                "done": true
+              },
+              {
+                "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "9039",
+                "done": true
+              },
+              {
+                "operation": "Зачистка",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0109",
+                "done": false
+              },
+              {
+                "operation": "Контроль линейных размеров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0220",
+                "done": true
+              },
+              {
+                "operation": "Комплексный контроль геометрических параметров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0260",
+                "done": false
+              },
+              {
+                "operation": "Очистка дробеструйная",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0136",
+                "done": true
+              },
+              {
+                "operation": "Грунтование распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7313",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              },
+              {
+                "operation": "Окрашивание распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7363",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              }
+            ]
+          },
+          "children": []
+        },
+        {
+          "name": "Стойка передняя левая ДПМА.301132.150 ЭМ",
+          "attributes": {
+            "product_name": "Стойка передняя левая",
+            "product_number": "ДПМА.301132.150 ЭМ",
+            "status": 2,
+            "quantity": 1,
+            "product_revision": "Рев-01",
+            "task_revision": "Рев-01",
+            "revision_change": false,
+            "operations": [
+              {
+                "operation": "Комплектование",
+                "area": "Участок комплектации",
+                "area_code": "Уч07",
+                "oper_code": "0418",
+                "done": true
+              },
+              {
+                "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "9039",
+                "done": true
+              },
+              {
+                "operation": "Зачистка",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0109",
+                "done": false
+              },
+              {
+                "operation": "Контроль линейных размеров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0220",
+                "done": true
+              },
+              {
+                "operation": "Комплексный контроль геометрических параметров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0260",
+                "done": false
+              },
+              {
+                "operation": "Очистка дробеструйная",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0136",
+                "done": true
+              },
+              {
+                "operation": "Грунтование распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7313",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              },
+              {
+                "operation": "Окрашивание распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7363",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              }
+            ]
+          },
+          "children": []
+        },
+        {
+          "name": "Панель левая ДПМА.301132.149 ЭМ",
+          "attributes": {
+            "product_name": "Панель левая",
+            "product_number": "ДПМА.301132.149 ЭМ",
+            "status": 2,
+            "quantity": 1,
+            "product_revision": "Рев-02",
+            "task_revision": "Рев-02",
+            "revision_change": false,
+            "operations": [
+              {
+                "operation": "Комплектование",
+                "area": "Участок комплектации",
+                "area_code": "Уч07",
+                "oper_code": "0418",
+                "done": true
+              },
+              {
+                "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "9039",
+                "done": true
+              },
+              {
+                "operation": "Зачистка",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0109",
+                "done": false
+              },
+              {
+                "operation": "Контроль линейных размеров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0220",
+                "done": true
+              },
+              {
+                "operation": "Комплексный контроль геометрических параметров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0260",
+                "done": false
+              },
+              {
+                "operation": "Очистка дробеструйная",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0136",
+                "done": true
+              },
+              {
+                "operation": "Грунтование распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7313",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              },
+              {
+                "operation": "Окрашивание распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7363",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              }
+            ]
+          },
+          "children": []
+        },
+        {
+          "name": "Стойка задняя правая ДПМА.301132.148-001 ЭМ",
+          "attributes": {
+            "product_name": "Стойка задняя правая",
+            "product_number": "ДПМА.301132.148-001 ЭМ",
+            "status": 2,
+            "quantity": 1,
+            "product_revision": "Рев-01",
+            "task_revision": "Рев-01",
+            "revision_change": false,
+            "operations": [
+              {
+                "operation": "Комплектование",
+                "area": "Участок комплектации",
+                "area_code": "Уч07",
+                "oper_code": "0418",
+                "done": true
+              },
+              {
+                "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "9039",
+                "done": true
+              },
+              {
+                "operation": "Зачистка",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0109",
+                "done": false
+              },
+              {
+                "operation": "Контроль линейных размеров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0220",
+                "done": true
+              },
+              {
+                "operation": "Комплексный контроль геометрических параметров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0260",
+                "done": false
+              },
+              {
+                "operation": "Очистка дробеструйная",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0136",
+                "done": true
+              },
+              {
+                "operation": "Грунтование распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7313",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              },
+              {
+                "operation": "Окрашивание распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7363",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              }
+            ]
+          },
+          "children": []
+        },
+        {
+          "name": "Стойка задняя левая ДПМА.301132.148 ЭМ",
+          "attributes": {
+            "product_name": "Стойка задняя левая",
+            "product_number": "ДПМА.301132.148 ЭМ",
+            "status": 2,
+            "quantity": 1,
+            "product_revision": "Рев-01",
+            "task_revision": "Рев-01",
+            "revision_change": false,
+            "operations": [
+              {
+                "operation": "Комплектование",
+                "area": "Участок комплектации",
+                "area_code": "Уч07",
+                "oper_code": "0418",
+                "done": true
+              },
+              {
+                "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "9039",
+                "done": true
+              },
+              {
+                "operation": "Зачистка",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0109",
+                "done": false
+              },
+              {
+                "operation": "Контроль линейных размеров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0220",
+                "done": true
+              },
+              {
+                "operation": "Комплексный контроль геометрических параметров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0260",
+                "done": false
+              },
+              {
+                "operation": "Очистка дробеструйная",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0136",
+                "done": true
+              },
+              {
+                "operation": "Грунтование распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7313",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              },
+              {
+                "operation": "Окрашивание распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7363",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              }
+            ]
+          },
+          "children": []
+        },
+        {
+          "name": "Накладка вентиляции ДПМА.301132.049 ЭМ",
+          "attributes": {
+            "product_name": "Накладка вентиляции",
+            "product_number": "ДПМА.301132.049 ЭМ",
+            "status": 2,
+            "quantity": 1,
+            "product_revision": "Рев-03",
+            "task_revision": "Рев-03",
+            "revision_change": false,
+            "operations": [
+              {
+                "operation": "Комплектование",
+                "area": "Участок комплектации",
+                "area_code": "Уч07",
+                "oper_code": "0418",
+                "done": true
+              },
+              {
+                "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "9039",
+                "done": true
+              },
+              {
+                "operation": "Зачистка",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0109",
+                "done": false
+              },
+              {
+                "operation": "Контроль линейных размеров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0220",
+                "done": true
+              },
+              {
+                "operation": "Комплексный контроль геометрических параметров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0260",
+                "done": false
+              },
+              {
+                "operation": "Очистка дробеструйная",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0136",
+                "done": true
+              },
+              {
+                "operation": "Грунтование распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7313",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              },
+              {
+                "operation": "Окрашивание распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7363",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              }
+            ]
+          },
+          "children": [
+            {
+              "name": "Опора накладки ДПМА.301132.010 ЭМ",
+              "attributes": {
+                "product_name": "Опора накладки",
+                "product_number": "ДПМА.301132.010 ЭМ",
+                "status": 2,
+                "quantity": 4,
+                "product_revision": "Рев-03",
+                "task_revision": "Рев-03",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": true
+                  },
+                  {
+                    "operation": "Слесарно-сборочная",
+                    "area": "Сборочный участок",
+                    "area_code": "Уч06",
+                    "oper_code": "8864",
+                    "done": false
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Цоколь ДПМА.301132.044 ЭМ",
+          "attributes": {
+            "product_name": "Цоколь",
+            "product_number": "ДПМА.301132.044 ЭМ",
+            "status": 2,
+            "quantity": 1,
+            "product_revision": "Рев-01",
+            "task_revision": "Рев-01",
+            "revision_change": false,
+            "operations": [
+              {
+                "operation": "Комплектование",
+                "area": "Участок комплектации",
+                "area_code": "Уч07",
+                "oper_code": "0418",
+                "done": true
+              },
+              {
+                "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "9039",
+                "done": true
+              },
+              {
+                "operation": "Зачистка",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0109",
+                "done": false
+              },
+              {
+                "operation": "Контроль линейных размеров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0220",
+                "done": true
+              },
+              {
+                "operation": "Комплексный контроль геометрических параметров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0260",
+                "done": false
+              },
+              {
+                "operation": "Очистка дробеструйная",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0136",
+                "done": true
+              },
+              {
+                "operation": "Грунтование распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7313",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              },
+              {
+                "operation": "Окрашивание распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7363",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              }
+            ]
+          },
+          "children": []
+        },
+        {
+          "name": "Накладка боковая ДПМА.301132.019 ЭМ",
+          "attributes": {
+            "product_name": "Накладка боковая",
+            "product_number": "ДПМА.301132.019 ЭМ",
+            "status": 2,
+            "quantity": 2,
+            "product_revision": "Рев-02",
+            "task_revision": "Рев-02",
+            "revision_change": false,
+            "operations": [
+              {
+                "operation": "Комплектование",
+                "area": "Участок комплектации",
+                "area_code": "Уч07",
+                "oper_code": "0418",
+                "done": true
+              },
+              {
+                "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "9039",
+                "done": true
+              },
+              {
+                "operation": "Зачистка",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0109",
+                "done": false
+              },
+              {
+                "operation": "Контроль линейных размеров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0220",
+                "done": true
+              },
+              {
+                "operation": "Комплексный контроль геометрических параметров",
+                "area": "Сварочный участок",
+                "area_code": "Уч05",
+                "oper_code": "0260",
+                "done": false
+              },
+              {
+                "operation": "Очистка дробеструйная",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0136",
+                "done": true
+              },
+              {
+                "operation": "Грунтование распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7313",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              },
+              {
+                "operation": "Окрашивание распылением  электростатическим",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "7363",
+                "done": true
+              },
+              {
+                "operation": "Контроль внешнего вида изделий, наличия клейм",
+                "area": "Участок подготовки поверхности",
+                "area_code": "Уч01",
+                "oper_code": "0387",
+                "done": false
+              }
+            ]
+          },
+          "children": [
+            {
+              "name": "Опора накладки ДПМА.301132.010 ЭМ",
+              "attributes": {
+                "product_name": "Опора накладки",
+                "product_number": "ДПМА.301132.010 ЭМ",
+                "status": 2,
+                "quantity": 4,
+                "product_revision": "Рев-03",
+                "task_revision": "Рев-03",
+                "revision_change": false,
+                "operations": [
+                  {
+                    "operation": "Комплектование",
+                    "area": "Участок комплектации",
+                    "area_code": "Уч07",
+                    "oper_code": "0418",
+                    "done": true
+                  },
+                  {
+                    "operation": "Слесарно-сборочная",
+                    "area": "Сборочный участок",
+                    "area_code": "Уч06",
+                    "oper_code": "8864",
+                    "done": false
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Рама свечная ДПМА.301228.141 ЭМ",
+      "attributes": {
+        "product_name": "Рама свечная",
+        "product_number": "ДПМА.301228.141 ЭМ",
+        "status": 2,
+        "quantity": 1,
+        "product_revision": "Рев-01",
+        "task_revision": "Рев-01",
+        "revision_change": false,
+        "operations": [
+          {
+            "operation": "Комплектование",
+            "area": "Участок комплектации",
+            "area_code": "Уч07",
+            "oper_code": "0418",
+            "done": true
+          },
+          {
+            "operation": "Очистка дробеструйная",
+            "area": "Участок подготовки поверхности",
+            "area_code": "Уч01",
+            "oper_code": "0136",
+            "done": true
+          },
+          {
+            "operation": "Ленточно (проволочно) - отрезная",
+            "area": "Заготовительный участок",
+            "area_code": "Уч02",
+            "oper_code": "4282",
+            "done": false
+          },
+          {
+            "operation": "Контроль линейных размеров",
+            "area": "Сварочный участок",
+            "area_code": "Уч05",
+            "oper_code": "0220",
+            "done": true
+          },
+          {
+            "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+            "area": "Сварочный участок",
+            "area_code": "Уч05",
+            "oper_code": "9039",
+            "done": true
+          },
+          {
+            "operation": "Комплексный контроль геометрических параметров",
+            "area": "Сварочный участок",
+            "area_code": "Уч05",
+            "oper_code": "0260",
+            "done": false
+          },
+          {
+            "operation": "Зачистка",
+            "area": "Сварочный участок",
+            "area_code": "Уч05",
+            "oper_code": "0109",
+            "done": false
+          },
+          {
+            "operation": "Очистка дробеструйная",
+            "area": "Участок подготовки поверхности",
+            "area_code": "Уч01",
+            "oper_code": "0136",
+            "done": true
+          },
+          {
+            "operation": "Грунтование распылением пневматическим",
+            "area": "Участок подготовки поверхности",
+            "area_code": "Уч01",
+            "oper_code": "7311",
+            "done": false
+          },
+          {
+            "operation": "Окрашивание распылением пневматическим",
+            "area": "Участок подготовки поверхности",
+            "area_code": "Уч01",
+            "oper_code": "7361",
+            "done": false
+          },
+          {
+            "operation": "Контроль внешнего вида изделий, наличия клейм",
+            "area": "Участок подготовки поверхности",
+            "area_code": "Уч01",
+            "oper_code": "0387",
+            "done": false
+          }
+        ]
+      },
+      "children": []
+    },
+    {
+      "name": "Свеча ДПМА.302115.022 ЭМ",
+      "attributes": {
+        "product_name": "Свеча",
+        "product_number": "ДПМА.302115.022 ЭМ",
+        "status": 2,
+        "quantity": 1,
+        "product_revision": "Рев-01",
+        "task_revision": "Рев-01",
+        "revision_change": false,
+        "operations": [
+          {
+            "operation": "Комплектование",
+            "area": "Участок комплектации",
+            "area_code": "Уч07",
+            "oper_code": "0418",
+            "done": true
+          },
+          {
+            "operation": "Очистка дробеструйная",
+            "area": "Участок подготовки поверхности",
+            "area_code": "Уч01",
+            "oper_code": "0136",
+            "done": true
+          },
+          {
+            "operation": "Ленточно (проволочно) - отрезная",
+            "area": "Заготовительный участок",
+            "area_code": "Уч02",
+            "oper_code": "4282",
+            "done": false
+          },
+          {
+            "operation": "Контроль линейных размеров",
+            "area": "Сварочный участок",
+            "area_code": "Уч05",
+            "oper_code": "0220",
+            "done": true
+          },
+          {
+            "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+            "area": "Сварочный участок",
+            "area_code": "Уч05",
+            "oper_code": "9039",
+            "done": true
+          },
+          {
+            "operation": "Комплексный контроль геометрических параметров",
+            "area": "Сварочный участок",
+            "area_code": "Уч05",
+            "oper_code": "0260",
+            "done": false
+          },
+          {
+            "operation": "Зачистка",
+            "area": "Сварочный участок",
+            "area_code": "Уч05",
+            "oper_code": "0109",
+            "done": false
+          },
+          {
+            "operation": "Очистка дробеструйная",
+            "area": "Участок подготовки поверхности",
+            "area_code": "Уч01",
+            "oper_code": "0136",
+            "done": true
+          },
+          {
+            "operation": "Грунтование распылением пневматическим",
+            "area": "Участок подготовки поверхности",
+            "area_code": "Уч01",
+            "oper_code": "7311",
+            "done": false
+          },
+          {
+            "operation": "Окрашивание распылением пневматическим",
+            "area": "Участок подготовки поверхности",
+            "area_code": "Уч01",
+            "oper_code": "7361",
+            "done": false
+          },
+          {
+            "operation": "Контроль внешнего вида изделий, наличия клейм",
+            "area": "Участок подготовки поверхности",
+            "area_code": "Уч01",
+            "oper_code": "0387",
+            "done": false
+          }
+        ]
+      },
+      "children": []
+    },
+    {
+      "name": "Свеча ДПМА.302115.022-001 ЭМ",
+      "attributes": {
+        "product_name": "Свеча",
+        "product_number": "ДПМА.302115.022-001 ЭМ",
+        "status": 2,
+        "quantity": 2,
+        "product_revision": "Рев-01",
+        "task_revision": "Рев-01",
+        "revision_change": false,
+        "operations": [
+          {
+            "operation": "Комплектование",
+            "area": "Участок комплектации",
+            "area_code": "Уч07",
+            "oper_code": "0418",
+            "done": true
+          },
+          {
+            "operation": "Очистка дробеструйная",
+            "area": "Участок подготовки поверхности",
+            "area_code": "Уч01",
+            "oper_code": "0136",
+            "done": true
+          },
+          {
+            "operation": "Ленточно (проволочно) - отрезная",
+            "area": "Заготовительный участок",
+            "area_code": "Уч02",
+            "oper_code": "4282",
+            "done": false
+          },
+          {
+            "operation": "Контроль линейных размеров",
+            "area": "Сварочный участок",
+            "area_code": "Уч05",
+            "oper_code": "0220",
+            "done": true
+          },
+          {
+            "operation": "Дуговая сварка в инертных газах плавящимся электродом",
+            "area": "Сварочный участок",
+            "area_code": "Уч05",
+            "oper_code": "9039",
+            "done": true
+          },
+          {
+            "operation": "Комплексный контроль геометрических параметров",
+            "area": "Сварочный участок",
+            "area_code": "Уч05",
+            "oper_code": "0260",
+            "done": false
+          },
+          {
+            "operation": "Зачистка",
+            "area": "Сварочный участок",
+            "area_code": "Уч05",
+            "oper_code": "0109",
+            "done": false
+          },
+          {
+            "operation": "Очистка дробеструйная",
+            "area": "Участок подготовки поверхности",
+            "area_code": "Уч01",
+            "oper_code": "0136",
+            "done": true
+          },
+          {
+            "operation": "Грунтование распылением пневматическим",
+            "area": "Участок подготовки поверхности",
+            "area_code": "Уч01",
+            "oper_code": "7311",
+            "done": false
+          },
+          {
+            "operation": "Окрашивание распылением пневматическим",
+            "area": "Участок подготовки поверхности",
+            "area_code": "Уч01",
+            "oper_code": "7361",
+            "done": false
+          },
+          {
+            "operation": "Контроль внешнего вида изделий, наличия клейм",
+            "area": "Участок подготовки поверхности",
+            "area_code": "Уч01",
+            "oper_code": "0387",
+            "done": false
+          }
+        ]
+      },
+      "children": []
+    },
+    {
+      "name": "Клемная коробка ДПМА. 469414.004",
+      "attributes": {
+        "product_name": "Клеммная коробка в сборе",
+        "product_number": "ДПМА.469414.004 ЭМ",
+        "status": 2,
+        "quantity": 1,
+        "product_revision": "Рев-01",
+        "task_revision": "Рев-01",
+        "revision_change": false,
+        "operations": [
+          {
+            "operation": "Комплектование",
+            "area": "Участок комплектации",
+            "area_code": "Уч07",
+            "oper_code": "0418",
+            "done": true
+          },
+          {
+            "operation": "Слесарно-сборочная",
+            "area": "Сборочный участок",
+            "area_code": "Уч06",
+            "oper_code": "8864",
+            "done": true
+          },
+          {
+            "operation": "Контроль линейных размеров",
+            "area": "Сборочный участок",
+            "area_code": "Уч06",
+            "oper_code": "0220",
+            "done": true
+          }
+        ]
+      },
+      "children": []
+    },
+    {
+      "name": "Клемная коробка ДПМА. 469414.004-001",
+      "attributes": {
+        "product_name": "Клеммная коробка в сборе",
+        "product_number": "ДПМА.469414.001-01 ЭМ",
+        "status": 2,
+        "quantity": 1,
+        "product_revision": "Рев-01",
+        "task_revision": "Рев-01",
+        "revision_change": false,
+        "operations": [
+          {
+            "operation": "Комплектование",
+            "area": "Участок комплектации",
+            "area_code": "Уч07",
+            "oper_code": "0418",
+            "done": true
+          },
+          {
+            "operation": "Слесарно-сборочная",
+            "area": "Сборочный участок",
+            "area_code": "Уч06",
+            "oper_code": "8864",
+            "done": true
+          },
+          {
+            "operation": "Контроль линейных размеров",
+            "area": "Сборочный участок",
+            "area_code": "Уч06",
+            "oper_code": "0220",
+            "done": true
+          }
+        ]
+      },
+      "children": []
+    }
+  ]
+}
