@@ -1,17 +1,17 @@
-import React from 'react';
-import { CustomNodeElementProps } from 'react-d3-tree/lib/types/common';
-import NodeIcon from '../NodeIcon/NodeIcon';
-import InfoBlock from '../InfoBlock/InfoBlock';
-import { TForeignObject } from '../../types';
+import React from "react";
+import NodeIcon from "../NodeIcon/NodeIcon";
+import InfoBlock from "../InfoBlock/InfoBlock";
+import { TTreeNodeProps } from "./types";
 
-const TreeNode = ({
-  nodeDatum,
+const TreeNode: React.FC<TTreeNodeProps> = ({
+  data,
   toggleNode,
-  infoBlockProps
-}: CustomNodeElementProps & { infoBlockProps: TForeignObject }) => {
-  const isRootNode = nodeDatum.__rd3t.depth === 0;
-  const isBranchNode = !!nodeDatum.children?.length && !isRootNode;
-  const isLeafNode = !nodeDatum.children?.length && !isRootNode;
+  infoBlockSize,
+  isRootNode
+}) => {
+  console.log(data)
+  const isBranchNode = !!data.children?.length && !isRootNode;
+  const isLeafNode = !data.children?.length && !isRootNode;
 
   return (
     <g strokeWidth={0}>
@@ -21,12 +21,9 @@ const TreeNode = ({
         isLeafNode={isLeafNode}
         onClick={toggleNode}
       />
-      <InfoBlock 
-        infoBlockProps={infoBlockProps}
-        nodeDatum={nodeDatum}
-      />
-    </g >
+      <InfoBlock infoBlockSize={infoBlockSize} data={data} />
+    </g>
   );
-}
+};
 
-export default TreeNode
+export default TreeNode;

@@ -1,33 +1,31 @@
-import React from 'react'
-import { blue, grey } from '@mui/material/colors'
-import { ICON_SIZE } from '../../constants';
+import React from "react";
+import { blue, grey } from "@ant-design/colors";
+import { ICON_SIZE } from "../../constants";
+import { TNodeIconProps } from "./types";
 
-type TNodeIcon = {
-  isRootNode: boolean;
-  isLeafNode: boolean;
-  isBranchNode: boolean;
-  onClick: () => void;
-}
-
-const NodeIcon = ({ isRootNode, isLeafNode, isBranchNode, onClick }: TNodeIcon) => {
+const NodeIcon = ({
+  isRootNode,
+  isLeafNode,
+  isBranchNode,
+  onClick,
+}: TNodeIconProps) => {
   const getIcon = () => {
-
     if (isRootNode) {
       return (
         <>
-          <circle r={ICON_SIZE / 2} fill={grey[500]} />
-          <circle r={ICON_SIZE / 2 - 2} fill={grey[50]} />
-          <circle r={ICON_SIZE / 2 - 4} fill={grey[500]} />
+          <circle r={ICON_SIZE / 2} fill={grey[5]} />
+          <circle r={ICON_SIZE / 2 - 2} fill={"white"} />
+          <circle r={ICON_SIZE / 2 - 4} fill={grey[5]} />
         </>
-      )
+      );
     } else if (isLeafNode) {
       return (
         <>
-          <circle r={ICON_SIZE / 2} fill={blue[700]} />
-          <circle r={ICON_SIZE / 2 - 2} fill={grey[50]} />
-          <circle r={ICON_SIZE / 2 - 4} fill={blue[700]} />
+          <circle r={ICON_SIZE / 2} fill={blue[5]} />
+          <circle r={ICON_SIZE / 2 - 2} fill={"white"} />
+          <circle r={ICON_SIZE / 2 - 4} fill={blue[5]} />
         </>
-      )
+      );
     } else if (isBranchNode) {
       return (
         <>
@@ -36,7 +34,7 @@ const NodeIcon = ({ isRootNode, isLeafNode, isBranchNode, onClick }: TNodeIcon) 
             y={-ICON_SIZE / 2}
             width={ICON_SIZE}
             height={ICON_SIZE}
-            fill={grey[500]}
+            fill={grey[5]}
             transform="rotate(45)"
             rx="4"
           />
@@ -45,7 +43,7 @@ const NodeIcon = ({ isRootNode, isLeafNode, isBranchNode, onClick }: TNodeIcon) 
             y={-ICON_SIZE / 2 + 2}
             width={ICON_SIZE - 4}
             height={ICON_SIZE - 4}
-            fill={grey[50]}
+            fill={"white"}
             transform="rotate(45)"
             rx="4"
           />
@@ -54,19 +52,15 @@ const NodeIcon = ({ isRootNode, isLeafNode, isBranchNode, onClick }: TNodeIcon) 
             y={0 - ICON_SIZE / 2 + 4}
             width={ICON_SIZE - 8}
             height={ICON_SIZE - 8}
-            fill={grey[500]}
+            fill={grey[5]}
             transform="rotate(45)"
             rx="4"
           />
         </>
-      )
+      );
     }
-  }
-  return (
-    <g onClick={onClick}>
-      {getIcon()}
-    </g>
-  )
-}
+  };
+  return <g onClick={onClick}>{getIcon()}</g>;
+};
 
-export default NodeIcon
+export default NodeIcon;

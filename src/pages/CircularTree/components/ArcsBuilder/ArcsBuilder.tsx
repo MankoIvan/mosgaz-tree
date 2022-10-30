@@ -56,7 +56,7 @@ const ArcsBuilder = ({
         }
 
         return (
-          <ArcsBuilder {...childArcProps} />
+          <ArcsBuilder {...childArcProps} key={index}/>
         )
       })}
     </>
