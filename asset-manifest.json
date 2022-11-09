@@ -1,13 +1,21 @@
 {
   "files": {
-    "main.css": "/mosgaz-tree/static/css/main.20c0d03f.css",
-    "main.js": "/mosgaz-tree/static/js/main.6d02b26f.js",
-    "index.html": "/mosgaz-tree/index.html",
-    "main.20c0d03f.css.map": "/mosgaz-tree/static/css/main.20c0d03f.css.map",
-    "main.6d02b26f.js.map": "/mosgaz-tree/static/js/main.6d02b26f.js.map"
+    "main.css": "./static/css/main.6fcd51d4.css",
+    "main.js": "./static/js/main.bf7331b5.js",
+    "static/media/icon-06.svg": "./static/media/icon-06.309409bced0b3865624aa38290177100.svg",
+    "static/media/icon-03.svg": "./static/media/icon-03.95da6657136c48e4e6a22cb03005e356.svg",
+    "static/media/icon-05.svg": "./static/media/icon-05.81ee1a5fcf59d59e136893d02fcd1514.svg",
+    "static/media/icon-07.svg": "./static/media/icon-07.dfa38eec9b49ce85bd1795dac49cc04a.svg",
+    "static/media/icon-02.svg": "./static/media/icon-02.429752d09cb12cef1ad4a379a58a0818.svg",
+    "static/media/icon-08.svg": "./static/media/icon-08.2c9df1bdece9dc4aaef252c0a5d04414.svg",
+    "static/media/icon-04.svg": "./static/media/icon-04.649a327b4311668f93d0fd7e0c322c73.svg",
+    "static/media/icon-01.svg": "./static/media/icon-01.1a49915ddde70112c5d03ecedf0e8aac.svg",
+    "index.html": "./index.html",
+    "main.6fcd51d4.css.map": "./static/css/main.6fcd51d4.css.map",
+    "main.bf7331b5.js.map": "./static/js/main.bf7331b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.20c0d03f.css",
-    "static/js/main.6d02b26f.js"
+    "static/css/main.6fcd51d4.css",
+    "static/js/main.bf7331b5.js"
   ]
 }

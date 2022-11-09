@@ -1,13 +1,14 @@
 ﻿{
-  "name": "agh МПГ — РЕД-6-50-С3 - 1680(1,2-0,05) — 2-ОЭ-0-Т-ПГ.0 ДПМА.067327.095 ЭМ",
+  "name": "МПГ — РЕД-6-50-С3 - 1680(1,2-0,05) — 2-ОЭ-0-Т-ПГ.0 ДПМА.067327.095 ЭМ",
   "attributes": {
-    "product_name": "agh МПГ — РЕД-6-50-С3 - 1680(1,2-0,05) — 2-ОЭ-0-Т-ПГ.0",
+    "product_name": "МПГ — РЕД-6-50-С3 - 1680(1,2-0,05) — 2-ОЭ-0-Т-ПГ.0",
     "product_number": "ДПМА.067327.095 ЭМ",
     "status": 0,
     "quantity": 1,
     "product_revision": "Рев-02",
     "task_revision": "",
     "revision_change": false,
+    "overall_time": 77,
     "operations": [
       {
         "operation": "Комплектование",
@@ -50,6 +51,7 @@
         "product_revision": "Рев-02",
         "task_revision": "",
         "revision_change": false,
+        "overall_time": 77,
         "operations": [
           {
             "operation": "Комплектование",
@@ -99,6 +101,7 @@
             "product_revision": "",
             "task_revision": "",
             "revision_change": false,
+            "overall_time": 77,
             "operations": [
               {
                 "operation": "Комплектование",
@@ -141,6 +144,7 @@
                 "product_revision": "Рев-01",
                 "task_revision": "Рев-01",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -170,6 +174,7 @@
                 "product_revision": "Рев-01",
                 "task_revision": "Рев-01",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -199,6 +204,7 @@
                 "product_revision": "Рев-01",
                 "task_revision": "Рев-01",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -228,6 +234,7 @@
                 "product_revision": "Рев-01",
                 "task_revision": "Рев-01",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -257,6 +264,7 @@
                 "product_revision": "Рев-01",
                 "task_revision": "Рев-01",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -286,6 +294,7 @@
                 "product_revision": "Рев-03",
                 "task_revision": "Рев-03",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -315,6 +324,7 @@
                 "product_revision": "Рев-02",
                 "task_revision": "Рев-02",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -344,6 +354,7 @@
                 "product_revision": "Рев-02",
                 "task_revision": "Рев-02",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -373,6 +384,7 @@
                 "product_revision": "Рев-03",
                 "task_revision": "Рев-03",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -402,6 +414,7 @@
                 "product_revision": "Рев-01",
                 "task_revision": "",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -521,6 +534,7 @@
                     "product_revision": "Рев-02",
                     "task_revision": "Рев-02",
                     "revision_change": false,
+                    "overall_time": 77,
                     "operations": [
                       {
                         "operation": "Комплектование",
@@ -543,6 +557,7 @@
                     "product_revision": "Рев-04",
                     "task_revision": "",
                     "revision_change": false,
+                    "overall_time": 77,
                     "operations": [
                       {
                         "operation": "Комплектование",
@@ -571,6 +586,7 @@
                         "product_revision": "Рев-03",
                         "task_revision": "Рев-03",
                         "revision_change": false,
+                        "overall_time": 77,
                         "operations": [
                           {
                             "operation": "Комплектование",
@@ -690,6 +706,7 @@
                             "product_revision": "Рев-01",
                             "task_revision": "Рев-01",
                             "revision_change": false,
+                            "overall_time": 77,
                             "operations": [
                               {
                                 "operation": "Токарная",
@@ -719,6 +736,7 @@
                             "product_revision": "Рев-03",
                             "task_revision": "Рев-03",
                             "revision_change": false,
+                            "overall_time": 77,
                             "operations": [
                               {
                                 "operation": "Комплектование",
@@ -741,6 +759,7 @@
                             "product_revision": "Рев-02",
                             "task_revision": "Рев-02",
                             "revision_change": false,
+                            "overall_time": 77,
                             "operations": [
                               {
                                 "operation": "Токарная",
@@ -770,6 +789,7 @@
                             "product_revision": "Рев-02",
                             "task_revision": "Рев-02",
                             "revision_change": false,
+                            "overall_time": 77,
                             "operations": [
                               {
                                 "operation": "Токарная",
@@ -799,6 +819,7 @@
                             "product_revision": "Рев-02",
                             "task_revision": "Рев-02",
                             "revision_change": false,
+                            "overall_time": 77,
                             "operations": [
                               {
                                 "operation": "Комплектование",
@@ -876,6 +897,7 @@
                                 "product_revision": "Рев-03",
                                 "task_revision": "Рев-03",
                                 "revision_change": false,
+                                "overall_time": 77,
                                 "operations": [
                                   {
                                     "operation": "Токарная",
@@ -913,6 +935,7 @@
                 "product_revision": "Рев-01",
                 "task_revision": "",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -1032,6 +1055,7 @@
                     "product_revision": "Рев-02",
                     "task_revision": "Рев-02",
                     "revision_change": false,
+                    "overall_time": 77,
                     "operations": [
                       {
                         "operation": "Комплектование",
@@ -1054,6 +1078,7 @@
                     "product_revision": "Рев-01",
                     "task_revision": "",
                     "revision_change": false,
+                    "overall_time": 77,
                     "operations": [
                       {
                         "operation": "Комплектование",
@@ -1082,6 +1107,7 @@
                         "product_revision": "Рев-01",
                         "task_revision": "Рев-01",
                         "revision_change": false,
+                        "overall_time": 77,
                         "operations": [
                           {
                             "operation": "Комплектование",
@@ -1159,6 +1185,7 @@
                             "product_revision": "Рев-01",
                             "task_revision": "Рев-01",
                             "revision_change": false,
+                            "overall_time": 77,
                             "operations": [
                               {
                                 "operation": "Токарная",
@@ -1188,6 +1215,7 @@
                             "product_revision": "Рев-03",
                             "task_revision": "Рев-03",
                             "revision_change": false,
+                            "overall_time": 77,
                             "operations": [
                               {
                                 "operation": "Токарная",
@@ -1217,6 +1245,7 @@
                             "product_revision": "Рев-02",
                             "task_revision": "Рев-02",
                             "revision_change": false,
+                            "overall_time": 77,
                             "operations": [
                               {
                                 "operation": "Токарная",
@@ -1246,6 +1275,7 @@
                             "product_revision": "Рев-02",
                             "task_revision": "Рев-02",
                             "revision_change": false,
+                            "overall_time": 77,
                             "operations": [
                               {
                                 "operation": "Токарная",
@@ -1275,6 +1305,7 @@
                             "product_revision": "Рев-02",
                             "task_revision": "Рев-02",
                             "revision_change": false,
+                            "overall_time": 77,
                             "operations": [
                               {
                                 "operation": "Комплектование",
@@ -1338,6 +1369,7 @@
                                 "product_revision": "Рев-03",
                                 "task_revision": "Рев-03",
                                 "revision_change": false,
+                                "overall_time": 77,
                                 "operations": [
                                   {
                                     "operation": "Токарная",
@@ -1375,6 +1407,7 @@
                 "product_revision": "Рев-03",
                 "task_revision": "",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -1495,6 +1528,7 @@
                 "product_revision": "Рев-01",
                 "task_revision": "Рев-01",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -1614,6 +1648,7 @@
                     "product_revision": "Рев-02",
                     "task_revision": "Рев-02",
                     "revision_change": false,
+                    "overall_time": 77,
                     "operations": [
                       {
                         "operation": "Комплектование",
@@ -1638,6 +1673,7 @@
                 "product_revision": "Рев-03",
                 "task_revision": "Рев-03",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -1758,6 +1794,7 @@
                 "product_revision": "Рев-01",
                 "task_revision": "Рев-01",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -1828,6 +1865,7 @@
                     "product_revision": "Рев-02",
                     "task_revision": "Рев-02",
                     "revision_change": false,
+                    "overall_time": 77,
                     "operations": [
                       {
                         "operation": "Комплектование",
@@ -1852,6 +1890,7 @@
                 "product_revision": "Рев-01",
                 "task_revision": "",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -1972,6 +2011,7 @@
                 "product_revision": "Рев-01",
                 "task_revision": "",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -2092,6 +2132,7 @@
                 "product_revision": "Рев-01",
                 "task_revision": "Рев-01",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -2211,6 +2252,7 @@
                     "product_revision": "Рев-02",
                     "task_revision": "Рев-02",
                     "revision_change": false,
+                    "overall_time": 77,
                     "operations": [
                       {
                         "operation": "Комплектование",
@@ -2235,6 +2277,7 @@
                 "product_revision": "Рев-01",
                 "task_revision": "Рев-01",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -2340,6 +2383,7 @@
                     "product_revision": "Рев-02",
                     "task_revision": "Рев-02",
                     "revision_change": false,
+                    "overall_time": 77,
                     "operations": [
                       {
                         "operation": "Комплектование",
@@ -2364,6 +2408,7 @@
                 "product_revision": "Рев-01",
                 "task_revision": "",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -2470,6 +2515,7 @@
                 "product_revision": "Рев-01",
                 "task_revision": "",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -2506,6 +2552,7 @@
                 "product_revision": "Рев-01",
                 "task_revision": "Рев-01",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -2611,6 +2658,7 @@
                     "product_revision": "Рев-01",
                     "task_revision": "",
                     "revision_change": false,
+                    "overall_time": 77,
                     "operations": [
                       {
                         "operation": "Комплектование",
@@ -2684,6 +2732,7 @@
                 "product_revision": "Рев-01",
                 "task_revision": "Рев-01",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -2776,6 +2825,7 @@
                 "product_revision": "Рев-01",
                 "task_revision": "Рев-01",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -2809,6 +2859,7 @@
         "product_revision": "Рев-01",
         "task_revision": "",
         "revision_change": false,
+        "overall_time": 77,
         "operations": [
           {
             "operation": "Комплектование",
@@ -2901,6 +2952,7 @@
         "product_revision": "Рев-01",
         "task_revision": "Рев-01",
         "revision_change": false,
+        "overall_time": 77,
         "operations": [
           {
             "operation": "Комплектование",
@@ -2936,6 +2988,7 @@
             "product_revision": "Рев-01",
             "task_revision": "Рев-01",
             "revision_change": false,
+            "overall_time": 77,
             "operations": [
               {
                 "operation": "Комплектование",
@@ -3014,6 +3067,7 @@
             "product_revision": "Рев-01",
             "task_revision": "Рев-01",
             "revision_change": false,
+            "overall_time": 77,
             "operations": [
               {
                 "operation": "Комплектование",
@@ -3050,6 +3104,7 @@
             "product_revision": "Рев-01",
             "task_revision": "Рев-01",
             "revision_change": false,
+            "overall_time": 77,
             "operations": [
               {
                 "operation": "Комплектование",
@@ -3135,6 +3190,7 @@
             "product_revision": "Рев-01",
             "task_revision": "Рев-01",
             "revision_change": false,
+            "overall_time": 77,
             "operations": [
               {
                 "operation": "Комплектование",
@@ -3220,6 +3276,7 @@
             "product_revision": "Рев-03",
             "task_revision": "Рев-03",
             "revision_change": false,
+            "overall_time": 77,
             "operations": [
               {
                 "operation": "Комплектование",
@@ -3305,6 +3362,7 @@
             "product_revision": "Рев-02",
             "task_revision": "Рев-02",
             "revision_change": false,
+            "overall_time": 77,
             "operations": [
               {
                 "operation": "Комплектование",
@@ -3390,6 +3448,7 @@
             "product_revision": "Рев-01",
             "task_revision": "Рев-01",
             "revision_change": false,
+            "overall_time": 77,
             "operations": [
               {
                 "operation": "Комплектование",
@@ -3475,6 +3534,7 @@
             "product_revision": "Рев-01",
             "task_revision": "Рев-01",
             "revision_change": false,
+            "overall_time": 77,
             "operations": [
               {
                 "operation": "Комплектование",
@@ -3560,6 +3620,7 @@
             "product_revision": "Рев-01",
             "task_revision": "Рев-01",
             "revision_change": false,
+            "overall_time": 77,
             "operations": [
               {
                 "operation": "Комплектование",
@@ -3645,6 +3706,7 @@
             "product_revision": "Рев-02",
             "task_revision": "Рев-02",
             "revision_change": false,
+            "overall_time": 77,
             "operations": [
               {
                 "operation": "Комплектование",
@@ -3730,6 +3792,7 @@
             "product_revision": "Рев-01",
             "task_revision": "Рев-01",
             "revision_change": false,
+            "overall_time": 77,
             "operations": [
               {
                 "operation": "Комплектование",
@@ -3815,6 +3878,7 @@
             "product_revision": "Рев-01",
             "task_revision": "Рев-01",
             "revision_change": false,
+            "overall_time": 77,
             "operations": [
               {
                 "operation": "Комплектование",
@@ -3900,6 +3964,7 @@
             "product_revision": "Рев-03",
             "task_revision": "Рев-03",
             "revision_change": false,
+            "overall_time": 77,
             "operations": [
               {
                 "operation": "Комплектование",
@@ -3984,6 +4049,7 @@
                 "product_revision": "Рев-03",
                 "task_revision": "Рев-03",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -4015,6 +4081,7 @@
             "product_revision": "Рев-01",
             "task_revision": "Рев-01",
             "revision_change": false,
+            "overall_time": 77,
             "operations": [
               {
                 "operation": "Комплектование",
@@ -4100,6 +4167,7 @@
             "product_revision": "Рев-02",
             "task_revision": "Рев-02",
             "revision_change": false,
+            "overall_time": 77,
             "operations": [
               {
                 "operation": "Комплектование",
@@ -4184,6 +4252,7 @@
                 "product_revision": "Рев-03",
                 "task_revision": "Рев-03",
                 "revision_change": false,
+                "overall_time": 77,
                 "operations": [
                   {
                     "operation": "Комплектование",
@@ -4217,6 +4286,7 @@
         "product_revision": "Рев-01",
         "task_revision": "Рев-01",
         "revision_change": false,
+        "overall_time": 77,
         "operations": [
           {
             "operation": "Комплектование",
@@ -4309,6 +4379,7 @@
         "product_revision": "Рев-01",
         "task_revision": "Рев-01",
         "revision_change": false,
+        "overall_time": 77,
         "operations": [
           {
             "operation": "Комплектование",
@@ -4401,6 +4472,7 @@
         "product_revision": "Рев-01",
         "task_revision": "Рев-01",
         "revision_change": false,
+        "overall_time": 77,
         "operations": [
           {
             "operation": "Комплектование",
@@ -4493,6 +4565,7 @@
         "product_revision": "Рев-01",
         "task_revision": "Рев-01",
         "revision_change": false,
+        "overall_time": 77,
         "operations": [
           {
             "operation": "Комплектование",
@@ -4529,6 +4602,7 @@
         "product_revision": "Рев-01",
         "task_revision": "Рев-01",
         "revision_change": false,
+        "overall_time": 77,
         "operations": [
           {
             "operation": "Комплектование",
