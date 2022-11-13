@@ -4,8 +4,15 @@ import CircularTree from "./pages/CircularTree/CircularTree";
 import HorizontalTree from "./pages/HorizontalTree/HorizontalTree";
 import { Segmented } from "antd";
 import "antd/dist/antd.css";
-
-import { icons } from "./icons";
+import {
+  CartIcon,
+  BrushIcon,
+  BoxIcon,
+  CNCIcon,
+  EngineIcon,
+  SparkIcon,
+  WrenchesIcon,
+} from "./icons";
 
 const Menu = styled.div`
   position: absolute;
@@ -25,26 +32,11 @@ function App() {
         return <CircularTree />;
       case "Icons":
         return (
-          <div
-            style={{
-              display: "flex",
-              gap: "10px",
-              padding: "10px",
-            }}
-          >
-            {Object.entries(icons).map(([name, src]) => {
-              return (
-                <img
-                  src={src}
-                  alt={name}
-                  style={{
-                    width: "100px",
-                    height: "100px",
-                    border: "1px solid red",
-                  }}
-                />
-              );
-            })}
+          <div style={{ fontSize: "32px", lineHeight: "40px", color: "red" }}>
+            <p>
+              abc <CartIcon /> <BrushIcon /> <BoxIcon /> <CNCIcon />{" "}
+              <EngineIcon /> <SparkIcon /> <WrenchesIcon />
+            </p>
           </div>
         );
       default:

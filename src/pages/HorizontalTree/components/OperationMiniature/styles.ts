@@ -1,13 +1,22 @@
-import { grey, green, yellow } from '@ant-design/colors';
+import { green, grey, yellow } from "@ant-design/colors";
 import styled, { css } from "styled-components";
 
-export const Wrapper = styled.div<{$status: number}>`
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 5px;
+export const IconWrapper = styled.div<{ $status: number, $large: boolean }>`
+  font-size: 16px;
+  line-height: 16px;
+  padding: 2px;
+  border-radius: 50%;
 
-  ${({$status}) => {
+  ${({ $large }): any =>
+    $large
+      ? css`  
+        padding: 8px;
+        font-size: 32px;
+        line-height: 32px;
+      `
+    : ''}
+
+  ${({ $status }) => {
     if ($status === 0) {
       return css`
         background: linear-gradient(0.5turn, ${grey[1]}, white);
@@ -25,16 +34,9 @@ export const Wrapper = styled.div<{$status: number}>`
     }
   }}
 `
-export const TextBlock = styled.div`
+export const MiniatureWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
-  flex: 1;
-  justify-content: space-between;
-`
-export const CTABlock = styled.div`
-  display: flex;
-  flex-direction: column;
   gap: 5px;
 `

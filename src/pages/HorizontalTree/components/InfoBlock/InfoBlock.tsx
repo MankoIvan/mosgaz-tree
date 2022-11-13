@@ -1,35 +1,32 @@
-import { InfoOutlined } from "@ant-design/icons";
-import { Button, Progress, Typography } from "antd";
+import { Progress, Typography } from "antd";
 import React from "react";
+import { TDataOperation } from "../../../../types";
 import BlockHeader from "../BlockHeader/BlockHeader";
+import LifeCycle from "../LifeCycle/LifeCycle";
+import MoreInfo from "../MoreInfo/MoreInfo";
 import { Block, Details } from "./styles";
 import { TInfoBlockProps } from "./types";
 
 const InfoBlock: React.FC<TInfoBlockProps> = ({ infoBlockSize, data }) => {
   const progress: number = Math.floor(
     (100 *
-      data.attributes!.operations.filter((item: any) => item.done).length) /
+      data.attributes!.operations.filter((item: TDataOperation) => item.status === 2).length) /
       data.attributes!.operations.length
   );
-
-  /* const headerColor = (status: number) => {
-    if (status === 0) return grey[500];
-    if (status === 1) return `linear-gradient(0.5turn, ${yellow[500]}, ${grey[100]})`;
-    if (status === 2) return `linear-gradient(0.5turn, ${green[500]}, ${grey[100]})`;
-  } */
 
   return data.attributes ? (
     <foreignObject {...infoBlockSize} style={{ cursor: "grab" }}>
       <Block>
         <BlockHeader
-          dpma={data.attributes?.product_number}
-          name={data.attributes?.product_name}
-          link_2d=""
-          link_3d=""
+          dpma={data.attributes.product_number}
+          name={data.attributes.product_name}
+          link_2d={data.attributes.view_2d}
+          link_3d={data.attributes.view_3d}
+          status={data.attributes.status}
         />
         <Details>
           <Progress type="circle" percent={progress} width={40} />
-          <Button shape="circle" icon={<InfoOutlined />} size="large" />
+          <MoreInfo {...data} />
           <Typography.Title level={4} style={{ margin: 0 }}>
             {data.attributes.quantity}шт.
           </Typography.Title>
@@ -37,6 +34,7 @@ const InfoBlock: React.FC<TInfoBlockProps> = ({ infoBlockSize, data }) => {
             {data.attributes.overall_time}ч
           </Typography.Title>
         </Details>
+        <LifeCycle operations={data.attributes.operations}/>
       </Block>
     </foreignObject>
   ) : (

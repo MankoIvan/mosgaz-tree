@@ -8,12 +8,21 @@ const BlockHeader: React.FC<IBlockHeader> = ({
   name,
   link_2d,
   link_3d,
+  status,
 }) => {
   return (
-    <Wrapper>
+    <Wrapper $status={status}>
       <CTABlock>
-      <Button type="dashed" href={link_2d} target='_blank' shape="circle">2D</Button>
-      <Button type="dashed" href={link_3d} target='_blank' shape="circle">3D</Button>
+        {link_2d && (
+          <Button type="dashed" href={link_2d} target="_blank" shape="circle">
+            2D
+          </Button>
+        )}
+        {link_3d && (
+          <Button type="dashed" href={link_3d} shape="circle">
+            3D
+          </Button>
+        )}
       </CTABlock>
       <TextBlock>
         <Typography.Text>{dpma}</Typography.Text>

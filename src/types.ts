@@ -1,12 +1,19 @@
-type TDataOperations = {
+export type TDataOperation = {
+  name: string;
   operation: string;
   area: string;
   area_code: string;
   oper_code: string;
-  done: boolean;
+  operation_number: 1;
+  block: string;
+  resource: string;
+  time: number;
+  executed_by: string;
+  executor_specialization: string;
+  status: number;
 };
 
-type TDataAttributes = {
+export type TDataAttributes = {
   product_name: string;
   product_number: string;
   status: number;
@@ -14,8 +21,15 @@ type TDataAttributes = {
   product_revision: string;
   task_revision: string;
   revision_change: boolean;
+  view_2d: string;
+  view_3d: string;
+  task_number: string;
+  task_date: string;
+  task_author: string;
+  task_executor: string;
+  task_completion_date: string;
   overall_time: number;
-  operations: TDataOperations[];
+  operations: TDataOperation[];
 };
 
 export type TData = {
