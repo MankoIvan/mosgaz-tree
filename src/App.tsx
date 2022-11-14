@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import CircularTree from "./pages/CircularTree/CircularTree";
 import HorizontalTree from "./pages/HorizontalTree/HorizontalTree";
-import { Segmented } from "antd";
+import { Segmented, Switch, Typography } from "antd";
 import "antd/dist/antd.css";
 import {
   CartIcon,
@@ -19,15 +19,24 @@ const Menu = styled.div`
   top: 10px;
   right: 10px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-end;
+`;
+const Row = styled.div`
+  display: flex;
+  gap: 5px;
 `;
 
 function App() {
-  const [page, setPage] = useState<string | number>("Horizontal");
+  const [page, setPage] = useState<string | number>("Tree");
+  const [orientation, setOrientation] = useState(true);
 
   const getContent = () => {
     switch (page) {
-      case "Horizontal":
-        return <HorizontalTree />;
+      case "Tree":
+        return <HorizontalTree orientation={orientation} />;
       case "Circular":
         return <CircularTree />;
       case "Icons":
@@ -48,10 +57,16 @@ function App() {
     <>
       <Menu>
         <Segmented
-          options={["Horizontal", "Circular", "Icons"]}
+          options={["Tree", "Circular", "Icons"]}
           value={page}
           onChange={setPage}
         />
+        {page === "Tree" && (
+          <Row>
+            <Typography.Text>Orientation</Typography.Text>
+            <Switch checked={orientation} onChange={setOrientation} />
+          </Row>
+        )}
       </Menu>
       {getContent()}
     </>

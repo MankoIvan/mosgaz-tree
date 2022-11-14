@@ -8,6 +8,7 @@ export const Block = styled.div`
   box-shadow: 0 5px 5px 0 ${grey[1]};
   display: flex;
   flex-direction: column;
+  background-color: white;
 `
 export const Details = styled.div`
   display: flex;
