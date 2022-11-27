@@ -10,19 +10,18 @@ import {
   SparkIcon,
   WrenchesIcon,
 } from "../../../../icons";
-import { IconWrapper, MiniatureWrapper } from "./styles";
+import { getTime } from "../../../../utils/getTime";
+import { IconWrapper, MiniatureWrapper, SideText } from "./styles";
 import { TOperationMiniatureProps } from "./types";
 
 const OperationMiniature: React.FC<TOperationMiniatureProps> = ({
   operationsGroup,
   large = false,
+  showOperations = true,
+  showSideText = false,
 }) => {
   const areaCode = operationsGroup[0].area_code;
   const area = operationsGroup[0].area;
-  const opersDone = operationsGroup.reduce((acc, item) => {
-    return item.status === 2 ? acc + 1 : acc;
-  }, 0);
-  const opersTotal = operationsGroup.length;
 
   const groupStatus = operationsGroup.reduce((acc, item) => {
     return item.status < acc ? item.status : acc;
@@ -50,33 +49,52 @@ const OperationMiniature: React.FC<TOperationMiniatureProps> = ({
   const OperationsTimeline = () => {
     return (
       <Timeline>
-        {operationsGroup.map((item) => {
+        {operationsGroup.map((item, index) => {
           const color =
             item.status === 2
               ? green[5]
               : item.status === 1
               ? yellow[5]
               : grey[5];
-          return <Timeline.Item color={color}>{item.name}</Timeline.Item>;
+          const time = getTime(Number(item.time));
+          return (
+            <Timeline.Item color={color} key={index}>
+              {item.name} {time ? `(${time})` : ""}
+            </Timeline.Item>
+          );
         })}
       </Timeline>
     );
   };
 
-  return (
-    <Popover placement="bottom" title={area} content={<OperationsTimeline />}>
+  return area && areaCode ? (
+    <Popover
+      placement="bottom"
+      title={area}
+      content={<OperationsTimeline />}
+      open={showOperations ? undefined : false}
+    >
       <MiniatureWrapper>
-        {large && <Typography.Text>{area}</Typography.Text>}
         <IconWrapper $status={groupStatus} $large={large}>
           {icon}
         </IconWrapper>
-        {large && (
-          <Typography.Text>
-            {opersDone}/{opersTotal}
-          </Typography.Text>
+        {showSideText && (
+          <SideText>
+            <Typography.Text>{area}</Typography.Text>
+            {operationsGroup.map((item, index) => {
+              const time = getTime(Number(item.time));
+              return (
+                <Typography.Text type="secondary" key={index}>
+                  {item.name} {time ? `(${time})` : ""}
+                </Typography.Text>
+              );
+            })}
+          </SideText>
         )}
       </MiniatureWrapper>
     </Popover>
+  ) : (
+    <></>
   );
 };
 

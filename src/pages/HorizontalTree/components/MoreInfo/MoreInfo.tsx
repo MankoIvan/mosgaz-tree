@@ -1,8 +1,13 @@
 import React, { Fragment, useState } from "react";
 import { Button, Descriptions, Modal, Tabs } from "antd";
-import { TData } from "../../../../types";
+import { TData, TDataOperation } from "../../../../types";
 import { InfoOutlined } from "@ant-design/icons";
-import LifeCycle from "../LifeCycle/LifeCycle";
+import { getProgress } from "../../../../utils/getProgress";
+import { getTime } from "../../../../utils/getTime";
+import OperationMiniature from "../OperationMiniature/OperationMiniature";
+import { groupByAreas } from "../../../../utils/groupByAreas";
+import { CurrentOperationsBlock } from "./styles";
+import OperationsTable from "../OperationsTable/OperationsTable";
 
 const MoreInfo: React.FC<TData> = (data) => {
   const statusData = [
@@ -23,6 +28,10 @@ const MoreInfo: React.FC<TData> = (data) => {
       key: "Ревизия изделия в работе",
       value: data.attributes!.task_revision,
     },
+    {
+      key: "Готовность",
+      value: `${getProgress(data.attributes?.operations as TDataOperation[])}%`,
+    },
   ];
 
   const taskData = [
@@ -31,51 +40,85 @@ const MoreInfo: React.FC<TData> = (data) => {
       value: data.attributes?.task_number,
     },
     {
-      key: "Дата задания на выпуск",
-      value: data.attributes?.task_date,
-    },
-    {
       key: "Автор задания на выпуск",
       value: data.attributes?.task_author,
     },
     {
-      key: "Исполнитель задания на выпуск",
-      value: data.attributes?.task_executor,
+      key: "Дата задания на выпуск",
+      value: data.attributes?.task_date,
     },
     {
       key: "Дата исполнения задания на выпуск",
       value: data.attributes?.task_completion_date,
+    },
+    {
+      key: "Готовность",
+      value: `${getProgress(data.attributes?.operations as TDataOperation[])}%`,
     },
   ];
 
   const lastOperation = data.attributes?.operations
     .filter((item) => item.status === 2)
     .slice(-1)[0];
+  const currentOperations = data.attributes?.operations.filter(
+    (item) => item.status === 1
+  );
 
   const areaData = [
     {
-      key: "Имя технологической операции по предыдущему участку",
-      value: lastOperation?.operation,
+      key: "Автор задания на выпуск",
+      value: data.attributes?.task_author,
     },
     {
-      key: "Код технологической операции по предыдущему участку",
-      value: lastOperation?.oper_code,
+      key: "Дата задания на выпуск",
+      value: data.attributes?.task_date,
     },
     {
-      key: "Название предыдущего участка",
-      value: lastOperation?.area,
+      key: "Номер задания на выпуск",
+      value: data.attributes?.task_number,
     },
     {
-      key: "Код предыдущего участка",
-      value: lastOperation?.area_code,
+      key: "Суммарное время на всех участках",
+      value: getTime(Number(data.attributes?.overall_time)) || "0ч",
     },
     {
-      key: "Ресурс",
-      value: lastOperation?.resource,
+      key: "Дата исполнения задания на выпуск",
+      value: data.attributes?.task_completion_date,
     },
     {
-      key: "Исполнитель",
-      value: lastOperation?.executed_by,
+      key: "Готовность",
+      value: `${getProgress(data.attributes?.operations as TDataOperation[])}%`,
+    },
+    {
+      key: "Предыдущая операция",
+      value: lastOperation ? (
+        <OperationMiniature
+          operationsGroup={[lastOperation]}
+          showOperations={false}
+          large
+          showSideText
+        />
+      ) : (
+        "-"
+      ),
+    },
+    {
+      key: "Текущие операции в работе",
+      value: (
+        <CurrentOperationsBlock>
+          {currentOperations?.length
+            ? groupByAreas(currentOperations).map((item, index) => (
+                <OperationMiniature
+                  operationsGroup={item}
+                  showOperations={false}
+                  large
+                  showSideText
+                  key={index}
+                />
+              ))
+            : "-"}
+        </CurrentOperationsBlock>
+      ),
     },
   ];
 
@@ -88,6 +131,53 @@ const MoreInfo: React.FC<TData> = (data) => {
   const handleCancel = () => {
     setIsModalOpen(false);
   };
+
+  const items = [
+    {
+      label: "Статус",
+      key: "1",
+      children: (
+        <Descriptions bordered layout="vertical">
+          {statusData.map((item, index) => (
+            <Descriptions.Item label={item.key} key={index}>
+              {item.value || "-"}
+            </Descriptions.Item>
+          ))}
+        </Descriptions>
+      ),
+    },
+    {
+      label: "Задание",
+      key: "2",
+      children: (
+        <Descriptions bordered layout="vertical">
+          {taskData.map((item, index) => (
+            <Descriptions.Item label={item.key} key={index}>
+              {item.value || "-"}
+            </Descriptions.Item>
+          ))}
+        </Descriptions>
+      ),
+    },
+    {
+      label: "Участок",
+      key: "3",
+      children: (
+        <Descriptions bordered layout="vertical">
+          {areaData.map((item, index) => (
+            <Descriptions.Item label={item.key} key={index}>
+              {item.value || "-"}
+            </Descriptions.Item>
+          ))}
+        </Descriptions>
+      ),
+    },
+    {
+      label: "Операции",
+      key: "4",
+      children: <OperationsTable operations={data.attributes!.operations} />,
+    },
+  ];
 
   return (
     <>
@@ -102,40 +192,9 @@ const MoreInfo: React.FC<TData> = (data) => {
         open={isModalOpen}
         onCancel={handleCancel}
         footer={null}
-        width={800}
+        width={"100%"}
       >
-        <Tabs>
-          <Tabs.TabPane tab="Статус" key="1">
-            <Descriptions bordered layout="vertical">
-              {statusData.map((item, index) => (
-                <Descriptions.Item label={item.key} key={index}>
-                  {item.value || "-"}
-                </Descriptions.Item>
-              ))}
-            </Descriptions>
-          </Tabs.TabPane>
-          <Tabs.TabPane tab="Задание" key="2">
-            <Descriptions bordered layout="vertical">
-              {taskData.map((item, index) => (
-                <Descriptions.Item label={item.key} key={index}>
-                  {item.value || "-"}
-                </Descriptions.Item>
-              ))}
-            </Descriptions>
-          </Tabs.TabPane>
-          <Tabs.TabPane tab="Участок" key="3">
-            <Descriptions bordered layout="vertical">
-              {areaData.map((item, index) => (
-                <Descriptions.Item label={item.key} key={index}>
-                  {item.value || "-"}
-                </Descriptions.Item>
-              ))}
-            </Descriptions>
-          </Tabs.TabPane>
-          <Tabs.TabPane tab="Операции" key="4">
-            <LifeCycle operations={data.attributes!.operations} large/>
-          </Tabs.TabPane>
-        </Tabs>
+        <Tabs items={items} />
       </Modal>
     </>
   );

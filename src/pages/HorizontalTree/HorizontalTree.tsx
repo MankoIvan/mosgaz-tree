@@ -1,7 +1,12 @@
 import React, { useEffect, useState } from "react";
 import Tree from "react-d3-tree";
 import { useCenteredTree } from "../../hooks/useCenteredTree";
-import { ICON_SIZE, NODE_SIZE, RELATIVE_NODE_SIZE, VERTICAL_NODE_SIZE } from "./constants";
+import {
+  ICON_SIZE,
+  NODE_SIZE,
+  RELATIVE_NODE_SIZE,
+  VERTICAL_NODE_SIZE,
+} from "./constants";
 import TreeNode from "./components/TreeNode/TreeNode";
 import { TData, TDataforTree } from "../../types";
 import { fetchDataFromLocal } from "../../api";
@@ -34,16 +39,22 @@ const HorizontalTree: React.FC<THorizontalTree> = ({ orientation }) => {
       });
   }, []);
 
-  /*   useEffect(() => {
+/*   useEffect(() => {
+    var params = new URLSearchParams(document.location.search);
     var myHeaders = new Headers();
     myHeaders.append("Authorization", "Basic RXhjaGFuZ2VfUHJvZDpFeDEzX1ByIWQ=");
 
-    fetch("https://1cmpg.mospromgaz.ru/mpg_unf/hs/production/gettree?id=10", {
-      method: "GET",
-      headers: {
-        Authorization: "Basic RXhjaGFuZ2VfUHJvZDpFeDEzX1ByIWQ=",
-      },
-    })
+    fetch(
+      `https://1cmpg.mospromgaz.ru/mpg_unf/hs/production/gettree?id=${params.get(
+        "id"
+      )}`,
+      {
+        method: "GET",
+        headers: {
+          Authorization: "Basic RXhjaGFuZ2VfUHJvZDpFeDEzX1ByIWQ=",
+        },
+      }
+    )
       .then((res) => res.json())
       .then((data) => {
         console.log(data);

@@ -1,6 +1,6 @@
 export const NODE_SIZE = {
   x: 400,
-  y: 250
+  y: 230
 }
 export const VERTICAL_NODE_SIZE = {
   x: 400,

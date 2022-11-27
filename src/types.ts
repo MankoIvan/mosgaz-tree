@@ -7,7 +7,7 @@ export type TDataOperation = {
   operation_number: 1;
   block: string;
   resource: string;
-  time: number;
+  time: string;
   executed_by: string;
   executor_specialization: string;
   status: number;
@@ -28,7 +28,7 @@ export type TDataAttributes = {
   task_author: string;
   task_executor: string;
   task_completion_date: string;
-  overall_time: number;
+  overall_time: string;
   operations: TDataOperation[];
 };
 

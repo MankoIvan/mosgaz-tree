@@ -14,7 +14,7 @@ export const IconWrapper = styled.div<{ $status: number, $large: boolean }>`
         font-size: 32px;
         line-height: 32px;
       `
-    : ''}
+      : ''}
 
   ${({ $status }) => {
     if ($status === 0) {
@@ -36,7 +36,10 @@ export const IconWrapper = styled.div<{ $status: number, $large: boolean }>`
 `
 export const MiniatureWrapper = styled.div`
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 5px;
+`
+export const SideText = styled.div`
+  display: flex;
+  flex-direction: column;
 `

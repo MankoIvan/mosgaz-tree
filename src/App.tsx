@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import CircularTree from "./pages/CircularTree/CircularTree";
 import HorizontalTree from "./pages/HorizontalTree/HorizontalTree";
-import { Segmented, Switch, Typography } from "antd";
+import { Button, Modal, Segmented, Switch, Typography } from "antd";
 import "antd/dist/antd.css";
 import {
   CartIcon,
@@ -13,6 +13,8 @@ import {
   SparkIcon,
   WrenchesIcon,
 } from "./icons";
+import { QuestionCircleOutlined } from "@ant-design/icons";
+import Legend from "./pages/HorizontalTree/components/Legend/Legend";
 
 const Menu = styled.div`
   position: absolute;
@@ -62,10 +64,13 @@ function App() {
           onChange={setPage}
         />
         {page === "Tree" && (
-          <Row>
-            <Typography.Text>Orientation</Typography.Text>
-            <Switch checked={orientation} onChange={setOrientation} />
-          </Row>
+          <>
+            <Row>
+              <Typography.Text>Orientation</Typography.Text>
+              <Switch checked={orientation} onChange={setOrientation} />
+            </Row>
+            <Legend />
+          </>
         )}
       </Menu>
       {getContent()}
