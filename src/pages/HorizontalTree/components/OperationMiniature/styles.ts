@@ -6,6 +6,7 @@ export const IconWrapper = styled.div<{ $status: number, $large: boolean }>`
   line-height: 16px;
   padding: 2px;
   border-radius: 50%;
+  width: fit-content;
 
   ${({ $large }): any =>
     $large
@@ -34,9 +35,16 @@ export const IconWrapper = styled.div<{ $status: number, $large: boolean }>`
     }
   }}
 `
-export const MiniatureWrapper = styled.div`
+export const MiniatureWithTextWrapper = styled.div`
   display: flex;
   align-items: flex-start;
+  gap: 5px;
+`
+export const MiniatureWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   gap: 5px;
 `
 export const SideText = styled.div`

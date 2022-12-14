@@ -4,5 +4,6 @@ export type TOperationMiniatureProps = {
   operationsGroup: TDataOperation[];
   large?: boolean;
   showOperations?: boolean;
-  showSideText?: boolean
+  showSideText?: boolean;
+  showName?: boolean;
 }

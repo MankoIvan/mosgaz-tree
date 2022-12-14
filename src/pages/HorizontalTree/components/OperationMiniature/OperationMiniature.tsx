@@ -11,7 +11,7 @@ import {
   WrenchesIcon,
 } from "../../../../icons";
 import { getTime } from "../../../../utils/getTime";
-import { IconWrapper, MiniatureWrapper, SideText } from "./styles";
+import { IconWrapper, MiniatureWithTextWrapper, MiniatureWrapper, SideText } from "./styles";
 import { TOperationMiniatureProps } from "./types";
 
 const OperationMiniature: React.FC<TOperationMiniatureProps> = ({
@@ -19,6 +19,7 @@ const OperationMiniature: React.FC<TOperationMiniatureProps> = ({
   large = false,
   showOperations = true,
   showSideText = false,
+  showName = false,
 }) => {
   const areaCode = operationsGroup[0].area_code;
   const area = operationsGroup[0].area;
@@ -74,10 +75,13 @@ const OperationMiniature: React.FC<TOperationMiniatureProps> = ({
       content={<OperationsTimeline />}
       open={showOperations ? undefined : false}
     >
-      <MiniatureWrapper>
-        <IconWrapper $status={groupStatus} $large={large}>
-          {icon}
-        </IconWrapper>
+      <MiniatureWithTextWrapper>
+        <MiniatureWrapper>
+          <IconWrapper $status={groupStatus} $large={large}>
+            {icon}
+          </IconWrapper>
+          {showName && <Typography.Text>{area}</Typography.Text>}
+        </MiniatureWrapper>
         {showSideText && (
           <SideText>
             <Typography.Text>{area}</Typography.Text>
@@ -91,7 +95,7 @@ const OperationMiniature: React.FC<TOperationMiniatureProps> = ({
             })}
           </SideText>
         )}
-      </MiniatureWrapper>
+      </MiniatureWithTextWrapper>
     </Popover>
   ) : (
     <></>

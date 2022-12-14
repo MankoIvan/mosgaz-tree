@@ -1,12 +1,12 @@
 import React, { Fragment, useState } from "react";
-import { Button, Descriptions, Modal, Tabs } from "antd";
+import { Button, Descriptions, Modal, Tabs, Typography } from "antd";
 import { TData, TDataOperation } from "../../../../types";
 import { InfoOutlined } from "@ant-design/icons";
 import { getProgress } from "../../../../utils/getProgress";
 import { getTime } from "../../../../utils/getTime";
 import OperationMiniature from "../OperationMiniature/OperationMiniature";
 import { groupByAreas } from "../../../../utils/groupByAreas";
-import { CurrentOperationsBlock } from "./styles";
+import { CurrentOperationsBlock, DescriptionTableLabel } from "./styles";
 import OperationsTable from "../OperationsTable/OperationsTable";
 
 const MoreInfo: React.FC<TData> = (data) => {
@@ -48,7 +48,7 @@ const MoreInfo: React.FC<TData> = (data) => {
       value: data.attributes?.task_date,
     },
     {
-      key: "Дата исполнения задания на выпуск",
+      key: "Дата окончания задания",
       value: data.attributes?.task_completion_date,
     },
     {
@@ -82,7 +82,7 @@ const MoreInfo: React.FC<TData> = (data) => {
       value: getTime(Number(data.attributes?.overall_time)) || "0ч",
     },
     {
-      key: "Дата исполнения задания на выпуск",
+      key: "Дата окончания задания",
       value: data.attributes?.task_completion_date,
     },
     {
@@ -139,7 +139,10 @@ const MoreInfo: React.FC<TData> = (data) => {
       children: (
         <Descriptions bordered layout="vertical">
           {statusData.map((item, index) => (
-            <Descriptions.Item label={item.key} key={index}>
+            <Descriptions.Item
+              label={<DescriptionTableLabel>{item.key}</DescriptionTableLabel>}
+              key={index}
+            >
               {item.value || "-"}
             </Descriptions.Item>
           ))}
@@ -152,7 +155,10 @@ const MoreInfo: React.FC<TData> = (data) => {
       children: (
         <Descriptions bordered layout="vertical">
           {taskData.map((item, index) => (
-            <Descriptions.Item label={item.key} key={index}>
+            <Descriptions.Item
+              label={<DescriptionTableLabel>{item.key}</DescriptionTableLabel>}
+              key={index}
+            >
               {item.value || "-"}
             </Descriptions.Item>
           ))}
@@ -165,7 +171,10 @@ const MoreInfo: React.FC<TData> = (data) => {
       children: (
         <Descriptions bordered layout="vertical">
           {areaData.map((item, index) => (
-            <Descriptions.Item label={item.key} key={index}>
+            <Descriptions.Item
+              label={<DescriptionTableLabel>{item.key}</DescriptionTableLabel>}
+              key={index}
+            >
               {item.value || "-"}
             </Descriptions.Item>
           ))}
@@ -175,7 +184,23 @@ const MoreInfo: React.FC<TData> = (data) => {
     {
       label: "Операции",
       key: "4",
-      children: <OperationsTable operations={data.attributes!.operations} />,
+      children: (
+        <>
+          <OperationsTable operations={data.attributes!.operations} />
+          <div>
+            <Typography.Text strong>Дата задания на выпуск: </Typography.Text>
+            <Typography.Text>
+              {data.attributes?.task_date || "-"}
+            </Typography.Text>
+          </div>
+          <div>
+            <Typography.Text strong>Дата окончания задания: </Typography.Text>
+            <Typography.Text>
+              {data.attributes?.task_completion_date || "-"}
+            </Typography.Text>
+          </div>
+        </>
+      ),
     },
   ];
 

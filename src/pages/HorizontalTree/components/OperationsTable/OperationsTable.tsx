@@ -48,6 +48,7 @@ const OperationsTable: React.FC<{ operations: TDataOperation[] }> = ({
                       operationsGroup={group}
                       large
                       showOperations={false}
+                      showName
                     />
                   </Cell>
                   <Cell rowSpan={group.length}>

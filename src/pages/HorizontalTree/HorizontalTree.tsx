@@ -26,48 +26,51 @@ const HorizontalTree: React.FC<THorizontalTree> = ({ orientation }) => {
   const [loadingFalied, setLoadingFalied] = useState(false);
 
   useEffect(() => {
-    fetchDataFromLocal()
-      .then((data) => {
-        setMockedData(data);
-        setLoadingFalied(false);
-        setIsLoading(false);
-      })
-      .catch((err) => {
-        console.log(err);
-        setIsLoading(false);
-        setLoadingFalied(true);
-      });
+    if (process.env.NODE_ENV !== "production") {
+      fetchDataFromLocal()
+        .then((data) => {
+          setMockedData(data);
+          setLoadingFalied(false);
+          setIsLoading(false);
+        })
+        .catch((err) => {
+          console.log(err);
+          setIsLoading(false);
+          setLoadingFalied(true);
+        });
+    } else {
+      var params = new URLSearchParams(document.location.search);
+      var myHeaders = new Headers();
+      myHeaders.append(
+        "Authorization",
+        "Basic RXhjaGFuZ2VfUHJvZDpFeDEzX1ByIWQ="
+      );
+
+      fetch(
+        `https://1cmpg.mospromgaz.ru/mpg_unf/hs/production/gettree?id=${params.get(
+          "id"
+        )}`,
+        {
+          method: "GET",
+          headers: {
+            Authorization: "Basic RXhjaGFuZ2VfUHJvZDpFeDEzX1ByIWQ=",
+          },
+        }
+      )
+        .then((res) => res.json())
+        .then((data) => {
+          console.log(data);
+          setMockedData(data);
+          setLoadingFalied(false);
+          setIsLoading(false);
+        })
+        .catch((err) => {
+          console.log(err);
+          setIsLoading(false);
+          setLoadingFalied(true);
+        });
+    }
   }, []);
-
-/*   useEffect(() => {
-    var params = new URLSearchParams(document.location.search);
-    var myHeaders = new Headers();
-    myHeaders.append("Authorization", "Basic RXhjaGFuZ2VfUHJvZDpFeDEzX1ByIWQ=");
-
-    fetch(
-      `https://1cmpg.mospromgaz.ru/mpg_unf/hs/production/gettree?id=${params.get(
-        "id"
-      )}`,
-      {
-        method: "GET",
-        headers: {
-          Authorization: "Basic RXhjaGFuZ2VfUHJvZDpFeDEzX1ByIWQ=",
-        },
-      }
-    )
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-        setMockedData(data);
-        setLoadingFalied(false);
-        setIsLoading(false);
-      })
-      .catch((err) => {
-        console.log(err);
-        setIsLoading(false);
-        setLoadingFalied(true);
-      });
-  }, []); */
 
   return isLoading ? (
     <LoaderWrapper>
@@ -92,6 +95,7 @@ const HorizontalTree: React.FC<THorizontalTree> = ({ orientation }) => {
         orientation={orientation ? "horizontal" : "vertical"}
         pathFunc="step"
         nodeSize={orientation ? NODE_SIZE : VERTICAL_NODE_SIZE}
+        initialDepth={1}
         renderCustomNodeElement={(rd3tProps) => (
           <TreeNode
             data={rd3tProps.nodeDatum as TData}
