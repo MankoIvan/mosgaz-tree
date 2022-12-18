@@ -4,7 +4,7 @@ export type TDataOperation = {
   area: string;
   area_code: string;
   oper_code: string;
-  operation_number: 1;
+  operation_number: string;
   block: string;
   resource: string;
   time: string;
@@ -16,6 +16,7 @@ export type TDataOperation = {
 export type TDataAttributes = {
   product_name: string;
   product_number: string;
+  product_code: string;
   status: number;
   quantity: number;
   product_revision: string;

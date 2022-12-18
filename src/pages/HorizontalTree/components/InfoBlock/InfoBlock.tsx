@@ -11,7 +11,6 @@ import { TInfoBlockProps } from "./types";
 
 const InfoBlock: React.FC<TInfoBlockProps> = ({ infoBlockSize, data }) => {
   const progress = getProgress(data.attributes?.operations as TDataOperation[]);
-
   return data.attributes ? (
     <foreignObject {...infoBlockSize} style={{ cursor: "grab" }}>
       <Block>

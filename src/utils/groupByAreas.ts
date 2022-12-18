@@ -1,6 +1,8 @@
 import { TDataOperation } from "../types";
 
 export const groupByAreas = (operations: TDataOperation[]): TDataOperation[][] => {
+  if (!operations.length) return [operations]
+
   const groupedOperations = [];
   let subOperGroup: TDataOperation[] = [];
   let prevArea = operations[0].area_code;
