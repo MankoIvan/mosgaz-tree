@@ -20,7 +20,7 @@ import { groupByAreas } from "../../../../utils/groupByAreas";
 const Line: FC<TLineProps> = ({ data, depth }) => {
   const { name, attributes, children } = data;
 
-  const [showChildren, setShowChildren] = useState(/* depth < 1 */ true);
+  const [showChildren, setShowChildren] = useState(depth < 1);
 
   return (
     <>
