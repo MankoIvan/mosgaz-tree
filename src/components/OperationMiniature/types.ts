@@ -1,8 +1,8 @@
-import { TDataOperation } from "../../../../types"
+import { TDataOperation } from "../../types"
 
 export type TOperationMiniatureProps = {
   operationsGroup: TDataOperation[];
-  large?: boolean;
+  size?: 16 | 24 | 32;
   showOperations?: boolean;
   showSideText?: boolean;
   showName?: boolean;

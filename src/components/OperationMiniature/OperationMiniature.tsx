@@ -1,4 +1,5 @@
 import { green, grey, yellow } from "@ant-design/colors";
+import { QuestionOutlined } from "@ant-design/icons";
 import { Popover, Timeline, Typography } from "antd";
 import React, { useMemo } from "react";
 import {
@@ -9,20 +10,25 @@ import {
   EngineIcon,
   SparkIcon,
   WrenchesIcon,
-} from "../../../../icons";
-import { getTime } from "../../../../utils/getTime";
-import { IconWrapper, MiniatureWithTextWrapper, MiniatureWrapper, SideText } from "./styles";
+} from "../../icons";
+import { getTime } from "../../utils/getTime";
+import {
+  IconWrapper,
+  MiniatureWithTextWrapper,
+  MiniatureWrapper,
+  SideText,
+} from "./styles";
 import { TOperationMiniatureProps } from "./types";
 
 const OperationMiniature: React.FC<TOperationMiniatureProps> = ({
   operationsGroup,
-  large = false,
+  size = 24,
   showOperations = true,
   showSideText = false,
   showName = false,
 }) => {
-  const areaCode = operationsGroup[0].area_code;
-  const area = operationsGroup[0].area;
+  const areaCode = operationsGroup[0]?.area_code;
+  const area = operationsGroup[0]?.area;
 
   const groupStatus = operationsGroup.reduce((acc, item) => {
     return item.status < acc ? item.status : acc;
@@ -44,6 +50,8 @@ const OperationMiniature: React.FC<TOperationMiniatureProps> = ({
         return <SparkIcon />;
       case "Уч 07":
         return <WrenchesIcon />;
+      default:
+        return <QuestionOutlined />;
     }
   }, [areaCode]);
 
@@ -77,7 +85,7 @@ const OperationMiniature: React.FC<TOperationMiniatureProps> = ({
     >
       <MiniatureWithTextWrapper>
         <MiniatureWrapper>
-          <IconWrapper $status={groupStatus} $large={large}>
+          <IconWrapper $status={groupStatus} $size={size}>
             {icon}
           </IconWrapper>
           {showName && <Typography.Text>{area}</Typography.Text>}

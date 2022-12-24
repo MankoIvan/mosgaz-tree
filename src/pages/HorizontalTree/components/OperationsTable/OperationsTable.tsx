@@ -3,7 +3,7 @@ import React from "react";
 import { TDataOperation } from "../../../../types";
 import { getTime } from "../../../../utils/getTime";
 import { groupByAreas } from "../../../../utils/groupByAreas";
-import OperationMiniature from "../OperationMiniature/OperationMiniature";
+import OperationMiniature from "../../../../components/OperationMiniature/OperationMiniature";
 import { HeaderCell, Row, Table, Cell } from "./styles";
 
 const OperationsTable: React.FC<{ operations: TDataOperation[] }> = ({
@@ -46,7 +46,7 @@ const OperationsTable: React.FC<{ operations: TDataOperation[] }> = ({
                   <Cell rowSpan={group.length}>
                     <OperationMiniature
                       operationsGroup={group}
-                      large
+                      size={32}
                       showOperations={false}
                       showName
                     />

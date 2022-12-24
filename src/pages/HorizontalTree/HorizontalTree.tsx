@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Tree from "react-d3-tree";
 import { useCenteredTree } from "../../hooks/useCenteredTree";
 import {
@@ -8,89 +8,23 @@ import {
   VERTICAL_NODE_SIZE,
 } from "./constants";
 import TreeNode from "./components/TreeNode/TreeNode";
-import { TData, TDataforTree } from "../../types";
-import { fetchDataFromLocal } from "../../api";
-import { Spin, Typography } from "antd";
-import { LoaderWrapper } from "./styles";
-import { FrownOutlined } from "@ant-design/icons";
+import { TData } from "../../types";
 import { THorizontalTree } from "./types";
 
-const defaultData: TData = {
-  name: "",
-};
-
-const HorizontalTree: React.FC<THorizontalTree> = ({ orientation }) => {
+const HorizontalTree: React.FC<THorizontalTree> = ({
+  orientation,
+  treeData,
+}) => {
   const [translate, containerRef] = useCenteredTree(NODE_SIZE);
-  const [mockedData, setMockedData] = useState(defaultData);
-  const [isLoading, setIsLoading] = useState(true);
-  const [loadingFalied, setLoadingFalied] = useState(false);
 
-  useEffect(() => {
-    if (process.env.NODE_ENV !== "production") {
-      fetchDataFromLocal()
-        .then((data) => {
-          setMockedData(data);
-          setLoadingFalied(false);
-          setIsLoading(false);
-        })
-        .catch((err) => {
-          console.log(err);
-          setIsLoading(false);
-          setLoadingFalied(true);
-        });
-    } else {
-      var params = new URLSearchParams(document.location.search);
-      var myHeaders = new Headers();
-      myHeaders.append(
-        "Authorization",
-        "Basic RXhjaGFuZ2VfUHJvZDpFeDEzX1ByIWQ="
-      );
-
-      fetch(
-        `https://1cmpg.mospromgaz.ru/mpg_unf/hs/production/gettree?id=${params.get(
-          "id"
-        )}`,
-        {
-          method: "GET",
-          headers: {
-            Authorization: "Basic RXhjaGFuZ2VfUHJvZDpFeDEzX1ByIWQ=",
-          },
-        }
-      )
-        .then((res) => res.json())
-        .then((data) => {
-          console.log(data);
-          setMockedData(data);
-          setLoadingFalied(false);
-          setIsLoading(false);
-        })
-        .catch((err) => {
-          console.log(err);
-          setIsLoading(false);
-          setLoadingFalied(true);
-        });
-    }
-  }, []);
-
-  return isLoading ? (
-    <LoaderWrapper>
-      <Spin size="large" tip="Loading..." />
-    </LoaderWrapper>
-  ) : loadingFalied ? (
-    <LoaderWrapper>
-      <Typography.Title level={3}>
-        <FrownOutlined /> Loading failed
-      </Typography.Title>
-      <Typography.Text>Please check the console output</Typography.Text>
-    </LoaderWrapper>
-  ) : (
+  return (
     <div
       id="treeWrapper"
       ref={containerRef}
       style={{ width: "100%", height: "100%" }}
     >
       <Tree
-        data={mockedData as TDataforTree}
+        data={treeData}
         translate={translate}
         orientation={orientation ? "horizontal" : "vertical"}
         pathFunc="step"

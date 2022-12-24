@@ -7,7 +7,7 @@ const TreeNode: React.FC<TTreeNodeProps> = ({
   data,
   toggleNode,
   infoBlockSize,
-  isRootNode
+  isRootNode,
 }) => {
   const isBranchNode = !!data.children?.length && !isRootNode;
   const isLeafNode = !data.children?.length && !isRootNode;

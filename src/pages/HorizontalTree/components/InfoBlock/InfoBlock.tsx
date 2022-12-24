@@ -5,7 +5,7 @@ import { getProgress } from "../../../../utils/getProgress";
 import { getTime } from "../../../../utils/getTime";
 import BlockHeader from "../BlockHeader/BlockHeader";
 import LifeCycle from "../LifeCycle/LifeCycle";
-import MoreInfo from "../MoreInfo/MoreInfo";
+import MoreInfo from "../../../../components/MoreInfo/MoreInfo";
 import { Block, Details } from "./styles";
 import { TInfoBlockProps } from "./types";
 
@@ -16,14 +16,14 @@ const InfoBlock: React.FC<TInfoBlockProps> = ({ infoBlockSize, data }) => {
       <Block>
         <BlockHeader
           dpma={data.attributes.product_number}
-          name={data.attributes.product_name}
+          name={data.name}
           link_2d={data.attributes.view_2d}
           link_3d={data.attributes.view_3d}
           status={data.attributes.status}
         />
         <Details>
           <Progress type="circle" percent={progress} width={40} />
-          <MoreInfo {...data} />
+          <MoreInfo data={data} />
           <Typography.Title level={4} style={{ margin: 0 }}>
             {data.attributes.quantity}шт.
           </Typography.Title>

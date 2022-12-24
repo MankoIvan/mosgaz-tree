@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { TDataOperation } from "../../../../types";
 import { groupByAreas } from "../../../../utils/groupByAreas";
-import OperationMiniature from "../OperationMiniature/OperationMiniature";
+import OperationMiniature from "../../../../components/OperationMiniature/OperationMiniature";
 import { OperationsWrapper } from "./styles";
 import { TLifeCycleProps } from "./types";
 
@@ -22,6 +22,7 @@ const LifeCycle: React.FC<TLifeCycleProps> = ({
         <OperationMiniature
           operationsGroup={operationsGroup}
           key={index}
+          size={16}
         />
       ))}
     </OperationsWrapper>

@@ -1,3 +1,13 @@
+import { TDataAttributes } from "../../types";
+
+
+export type TDataforTree = {
+  name: string;
+  attributes?: Omit<TDataAttributes, 'operations'>
+  children?: TDataforTree[]
+}
+
 export type THorizontalTree = {
-  orientation: boolean
+  treeData: TDataforTree;
+  orientation: boolean;
 }

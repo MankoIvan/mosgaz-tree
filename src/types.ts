@@ -39,9 +39,3 @@ export type TData = {
   children?: TData[]
 }
 
-export type TDataforTree = {
-  name: string;
-  attributes?: Omit<TDataAttributes, 'operations'>
-  children?: TDataforTree[]
-}
-
