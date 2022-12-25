@@ -1,6 +1,6 @@
 import { MinusOutlined, PlusOutlined } from "@ant-design/icons";
-import { Button, Progress, Typography } from "antd";
-import React, { FC, useState } from "react";
+import { Button, Modal, Progress, Typography } from "antd";
+import React, { FC, useEffect, useState } from "react";
 import MoreInfo from "../../../../components/MoreInfo/MoreInfo";
 import { getProgress } from "../../../../utils/getProgress";
 import { getTime } from "../../../../utils/getTime";
@@ -9,9 +9,13 @@ import {
   BlockWrapper,
   Border,
   ChildrenBlock,
+  ImagePlaceholder,
   InfoBlock,
   LineWrapper,
+  MainBlock,
+  ModalImageWrapper,
   OperationsBlock,
+  PreviewImage,
   TextBlock,
 } from "./Line.styles";
 import { TLineProps } from "./Line.types";
@@ -21,6 +25,45 @@ const Line: FC<TLineProps> = ({ data, depth }) => {
   const { name, attributes, children } = data;
 
   const [showChildren, setShowChildren] = useState(depth < 1);
+  const [previewImage, setPreviewImage] = useState<string>();
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [imageLoadFailed, setImageLoadFailed] = useState(false);
+
+  const showModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleCancel = () => {
+    setIsModalOpen(false);
+  };
+
+  useEffect(() => {
+    attributes?.product_code &&
+      fetch(
+        `https://1cmpg.mospromgaz.ru/mpg_unf/hs/production/gettree?id=${attributes.product_code}`,
+        {
+          method: "GET",
+          headers: {
+            Authorization: "Basic RXhjaGFuZ2VfUHJvZDpFeDEzX1ByIWQ=",
+          },
+        }
+      )
+        .then((res) => res.json())
+        .then((data) => {
+          setPreviewImage(`data:image/png;base64,${data}`);
+          setImageLoadFailed(false);
+        })
+        .catch((err) => {
+          console.log(err);
+          setImageLoadFailed(true);
+        });
+  }, [attributes?.product_code]);
+
+  useEffect(() => {
+    imageLoadFailed &&
+      attributes?.image &&
+      setPreviewImage(`data:image/png;base64,${attributes?.image}`);
+  }, [attributes?.image, imageLoadFailed]);
 
   return (
     <>
@@ -39,10 +82,33 @@ const Line: FC<TLineProps> = ({ data, depth }) => {
 
           <Border />
 
-          <TextBlock>
-            <Typography.Text>{attributes?.product_number}</Typography.Text>
-            <Typography.Text strong>{name}</Typography.Text>
-          </TextBlock>
+          <MainBlock>
+            {previewImage ? (
+              <>
+                <PreviewImage
+                  src={previewImage}
+                  onClick={showModal}
+                  alt={name}
+                />
+                <Modal
+                  title={name}
+                  open={isModalOpen}
+                  onCancel={handleCancel}
+                  footer={null}
+                >
+                  <ModalImageWrapper>
+                    <img src={previewImage} alt={name} />
+                  </ModalImageWrapper>
+                </Modal>
+              </>
+            ) : (
+              <ImagePlaceholder />
+            )}
+            <TextBlock>
+              <Typography.Text>{attributes?.product_number}</Typography.Text>
+              <Typography.Text strong>{name}</Typography.Text>
+            </TextBlock>
+          </MainBlock>
 
           {attributes && (
             <>

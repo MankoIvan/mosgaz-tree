@@ -18,53 +18,50 @@ function App() {
   const [treeData, setTreeData] = useState<TData>();
   const [isLoading, setIsLoading] = useState(true);
   const [loadingFalied, setLoadingFalied] = useState(false);
+  const [isDataMocked, setIsDataMocked] = useState(false)
 
   useEffect(() => {
-    //if (process.env.NODE_ENV !== "production") {
+    const params = new URLSearchParams(document.location.search);
+    fetch(
+      `https://1cmpg.mospromgaz.ru/mpg_unf/hs/production/gettree?id=${params.get(
+        "id"
+      )}`,
+      {
+        method: "GET",
+        headers: {
+          Authorization: "Basic RXhjaGFuZ2VfUHJvZDpFeDEzX1ByIWQ=",
+        },
+      }
+    )
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+        setTreeData(data);
+        setLoadingFalied(false);
+        setIsLoading(false);
+      })
+      .catch((err) => {
+        console.log(err);
+        setIsLoading(false);
+        setLoadingFalied(true);
+      });
+  }, []);
+
+  useEffect(() => {
+    loadingFalied &&
       fetchDataFromLocal()
         .then((data) => {
           setTreeData(data);
           setLoadingFalied(false);
           setIsLoading(false);
+          setIsDataMocked(true)
         })
         .catch((err) => {
           console.log(err);
           setIsLoading(false);
           setLoadingFalied(true);
         });
-    //} else {
-      /* var params = new URLSearchParams(document.location.search);
-      var myHeaders = new Headers();
-      myHeaders.append(
-        "Authorization",
-        "Basic RXhjaGFuZ2VfUHJvZDpFeDEzX1ByIWQ="
-      );
-
-      fetch(
-        `https://1cmpg.mospromgaz.ru/mpg_unf/hs/production/gettree?id=${params.get(
-          "id"
-        )}`,
-        {
-          method: "GET",
-          headers: {
-            Authorization: "Basic RXhjaGFuZ2VfUHJvZDpFeDEzX1ByIWQ=",
-          },
-        }
-      )
-        .then((res) => res.json())
-        .then((data) => {
-          console.log(data);
-          setTreeData(data);
-          setLoadingFalied(false);
-          setIsLoading(false);
-        })
-        .catch((err) => {
-          console.log(err);
-          setIsLoading(false);
-          setLoadingFalied(true);
-        }); */
-   //}
-  }, []);
+  }, [loadingFalied]);
 
   const getContent = () => {
     switch (page) {
@@ -111,6 +108,7 @@ function App() {
             </Row>
           </>
         )}
+        {isDataMocked && <Typography.Text strong>ALL DATA IS MOCKED</Typography.Text>}
         <Legend />
       </Menu>
       {getContent()}

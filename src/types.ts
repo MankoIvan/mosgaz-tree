@@ -17,6 +17,7 @@ export type TDataAttributes = {
   product_name: string;
   product_number: string;
   product_code: string;
+  image: string;
   status: number;
   quantity: number;
   product_revision: string;
