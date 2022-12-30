@@ -32,15 +32,16 @@ export const MainBlock = styled.div`
 `;
 
 export const PreviewImage = styled.img`
-  max-height: 40px;
   max-width: 40px;
   cursor: pointer;
 `;
 
 export const ImagePlaceholder = styled.div`
-  height: 40px;
-  width: 40px;
-`
+  padding: 8px;
+  font-size: 24px;
+  opacity: 0.5;
+  color: ${grey[0]};
+`;
 
 export const TextBlock = styled.div`
   display: flex;

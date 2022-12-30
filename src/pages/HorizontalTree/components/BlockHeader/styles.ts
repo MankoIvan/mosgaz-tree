@@ -37,4 +37,22 @@ export const CTABlock = styled.div`
   display: flex;
   flex-direction: column;
   gap: 5px;
-`
+`;
+
+export const PreviewImage = styled.img`
+  max-width: 40px;
+  cursor: pointer;
+`;
+
+export const ImagePlaceholder = styled.div`
+  padding: 8px;
+  font-size: 24px;
+  opacity: 0.5;
+  color: ${grey[0]};
+`;
+
+export const ModalImageWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;

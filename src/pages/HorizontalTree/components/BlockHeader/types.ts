@@ -3,5 +3,7 @@ export interface IBlockHeader {
   name: string;
   link_2d: string;
   link_3d: string;
-  status: number
+  status: number;
+  image?: string;
+  product_code: string;
 }

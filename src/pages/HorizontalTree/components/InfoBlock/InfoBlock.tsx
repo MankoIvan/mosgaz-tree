@@ -20,6 +20,8 @@ const InfoBlock: React.FC<TInfoBlockProps> = ({ infoBlockSize, data }) => {
           link_2d={data.attributes.view_2d}
           link_3d={data.attributes.view_3d}
           status={data.attributes.status}
+          image={data.attributes.image}
+          product_code={data.attributes.product_code}
         />
         <Details>
           <Progress type="circle" percent={progress} width={40} />
