@@ -12,13 +12,14 @@ import { LoaderWrapper, Menu, Row } from "./styles";
 import { TDataforTree } from "./pages/HorizontalTree/types";
 
 function App() {
-  const [page, setPage] = useState<string | number>("Classic");
+  const [page, setPage] = useState<string | number>("Lines");
   const [orientation, setOrientation] = useState(true);
+  const [highlightWIP, setHighlightWIP] = useState(false);
 
   const [treeData, setTreeData] = useState<TData>();
   const [isLoading, setIsLoading] = useState(true);
   const [loadingFalied, setLoadingFalied] = useState(false);
-  const [isDataMocked, setIsDataMocked] = useState(false)
+  const [isDataMocked, setIsDataMocked] = useState(false);
 
   useEffect(() => {
     const params = new URLSearchParams(document.location.search);
@@ -54,7 +55,7 @@ function App() {
           setTreeData(data);
           setLoadingFalied(false);
           setIsLoading(false);
-          setIsDataMocked(true)
+          setIsDataMocked(true);
         })
         .catch((err) => {
           console.log(err);
@@ -75,7 +76,7 @@ function App() {
       //      case "Circular":
       //        return <CircularTree />;
       case "Lines":
-        return <LineTree treeData={treeData} />;
+        return <LineTree treeData={treeData} highlightWIP={highlightWIP} />;
       default:
         return "wrong page";
     }
@@ -108,7 +109,17 @@ function App() {
             </Row>
           </>
         )}
-        {isDataMocked && <Typography.Text strong>ALL DATA IS MOCKED</Typography.Text>}
+        {page === "Lines" && (
+          <>
+            <Row>
+              <Typography.Text>Highlight WIP</Typography.Text>
+              <Switch checked={highlightWIP} onChange={setHighlightWIP} />
+            </Row>
+          </>
+        )}
+        {isDataMocked && (
+          <Typography.Text strong>ALL DATA IS MOCKED</Typography.Text>
+        )}
         <Legend />
       </Menu>
       {getContent()}

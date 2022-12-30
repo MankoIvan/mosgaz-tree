@@ -10,7 +10,7 @@ import { CurrentOperationsBlock, DescriptionTableLabel } from "./styles";
 import OperationsTable from "../../pages/HorizontalTree/components/OperationsTable/OperationsTable";
 import { TMoreInfoProps } from "./types";
 
-const MoreInfo: React.FC<TMoreInfoProps> = ({ data }) => {
+const MoreInfo: React.FC<TMoreInfoProps> = ({ data, isSmall = false }) => {
   const { name, attributes } = data;
   const statusData = [
     {
@@ -209,7 +209,7 @@ const MoreInfo: React.FC<TMoreInfoProps> = ({ data }) => {
       <Button
         shape="circle"
         icon={<InfoOutlined />}
-        size="large"
+        size="small"
         onClick={showModal}
       />
       <Modal

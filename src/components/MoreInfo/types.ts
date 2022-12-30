@@ -1,5 +1,6 @@
 import { TData } from "../../types"
 
 export type TMoreInfoProps = {
-  data: TData
+  data: TData;
+  isSmall?: boolean;
 }
